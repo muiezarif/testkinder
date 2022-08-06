@@ -1,5 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+@font-face {
+    font-family: "HandSean";
+    src: url("/handsean.ttf") format('truetype');
+}
 html,
 body {
     padding: 0;
@@ -39,6 +44,7 @@ a {
 }
 .bg-blue{
     background: #354DB7;
+    border-bottom: 4px dotted #ebe646;
 }
 .services{
     border-bottom: 1px solid #ebe646;
@@ -124,7 +130,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
     transition: all 0.5s;
     z-index: 997;
     transition: all 0.5s;
-    background: #EC4B26;
+    background: #354DB7;
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 #header .logo h1 {
@@ -380,7 +386,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
     border-radius: 3px;
     transition: 0.5s;
     margin-top: 30px;
-    color: #fff;
+    color: #000;
     background: #EBE646;
 }
 #hero .btn-get-started:hover {
@@ -473,7 +479,7 @@ section {
 
 .section-bg {
     background-color: #EC4B26;
-    border-bottom: 1px solid #FFBE7C;
+    border-bottom: 4px dot-dash #ebe646;
 }
 
 .section-title {
@@ -1110,11 +1116,11 @@ section {
     padding: 0 0 30px 0;
     color: #ffffff;
     font-size: 14px;
-    background: #EC4B26;
+    background: #354DB7;
 }
 #footer .footer-newsletter {
     padding: 50px 0;
-    background: #EC4B26;
+    background: #354DB7;
     text-align: center;
     font-size: 15px;
 }
@@ -1261,7 +1267,7 @@ section {
 
 
 h1,h2,h3,h4,h5{
-    font-family: Handlee, cursive;
+    font-family: HandSean, cursive;
 }
 p,span,div,b,a{
     font-family: Montserrat, sans-serif;
