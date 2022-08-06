@@ -120,7 +120,7 @@ class Navbar extends Component {
                     <div className="container d-flex align-items-center justify-content-between">
 
                         <div className="logo">
-                            <h1 className="text-light"><div onClick={this.onHomeClick}><h1>Kinder-fit</h1></div></h1>
+                            <h1 className="text-light"><div onClick={this.onHomeClick}><img src="/kinder-fit-logo.png" alt=""/></div></h1>
                             {/*Uncomment below if you prefer to use an image log*/}
                             {/*<a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>*/}
                         </div>
@@ -169,20 +169,20 @@ class Navbar extends Component {
                                         <li><a className="cursor-pointer" onClick={this.onKidsSportsClubsRegionalTrainingsClick}>{this.props.translation("menu_regional_trainings")}</a></li>
                                     </ul>
                                 </li>
-                                <li className="dropdown"><a className="cursor-pointer" onClick={this.onFranchiseClick}><span>{this.props.translation("menu_franchise_jobs")}</span> <i className="bi bi-chevron-down"/></a>
-                                    <ul>
-                                        <li><a className="cursor-pointer" onClick={this.onFranchiseBecomeCoachClick}>{this.props.translation("menu_become_coach")}</a></li>
-                                        <li><a className="cursor-pointer" onClick={this.onFranchiseRegionalBusinessLeaderClick}>{this.props.translation("menu_regional_business_leader")}</a></li>
-                                        <li><a className="cursor-pointer" onClick={this.onFranchiseBecomeFranchiseClick}>{this.props.translation("menu_become_franchise")}</a></li>
-                                    </ul>
-                                </li>
+                                {/*<li className="dropdown"><a className="cursor-pointer" onClick={this.onFranchiseClick}><span>{this.props.translation("menu_franchise_jobs")}</span> <i className="bi bi-chevron-down"/></a>*/}
+                                {/*    <ul>*/}
+                                {/*        <li><a className="cursor-pointer" onClick={this.onFranchiseBecomeCoachClick}>{this.props.translation("menu_become_coach")}</a></li>*/}
+                                {/*        <li><a className="cursor-pointer" onClick={this.onFranchiseRegionalBusinessLeaderClick}>{this.props.translation("menu_regional_business_leader")}</a></li>*/}
+                                {/*        <li><a className="cursor-pointer" onClick={this.onFranchiseBecomeFranchiseClick}>{this.props.translation("menu_become_franchise")}</a></li>*/}
+                                {/*    </ul>*/}
+                                {/*</li>*/}
                                 <li><a className="nav-link scrollto cursor-pointer" onClick={this.onContactClick}>{this.props.translation("menu_contact")}</a></li>
                                 <li><a className="nav-link scrollto cursor-pointer" onClick={this.onENClick}>en</a></li>
                                 <li><a className="text-white">|</a></li>
                                 <li><a className="nav-link scrollto cursor-pointer" onClick={this.onDEClick}>de</a></li>
                                 {/*<li><a className="getstarted scrollto" href="#about">Get Started</a></li>*/}
                             </ul>
-                            <i className="bi bi-list mobile-nav-toggle"></i>
+                            <i className="bi bi-list mobile-nav-toggle navbar-toggler"></i>
                         </nav>
                     </div>
                 </header>

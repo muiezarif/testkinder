@@ -21,9 +21,9 @@ class TeamPackages extends Component {
                                 <div>
                                     <a href="#contact" className="btn-get-started scrollto">{this.props.translation("ksc_tp_layout_first_section_text")}</a>
                                 </div>
-                                <div>
-                                    <p className="mt-3">{this.props.translation("ksc_tp_layout_first_section_text2")}</p>
-                                </div>
+                                {/*<div>*/}
+                                {/*    <p className="mt-3">{this.props.translation("ksc_tp_layout_first_section_text2")}</p>*/}
+                                {/*</div>*/}
                             </div>
                             <div className="col-lg-6 order-1 order-lg-2 hero-img">
                                 <img src="/images/pic102.jpg" className="img-fluid animated rounded-3" alt=""/>
