@@ -37,6 +37,7 @@ class MyDocument extends Document {
                 <div id="modal-root"></div>
                 <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
                 <script src="static/vendor/aos/aos.js"></script>
+                <script src="static/vendor/bootstrap/js/bootstrap.min.js"></script>
                 <script src="static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
                 <script src="static/vendor/glightbox/js/glightbox.min.js"></script>
                 <script src="static/vendor/isotope-layout/isotope.pkgd.min.js"></script>
