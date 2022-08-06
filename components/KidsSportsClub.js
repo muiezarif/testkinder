@@ -33,7 +33,7 @@ class KidsSportsClub extends Component {
                 </section>
                 <main id="main">
 
-                    <section id="about" className="about section-bg">
+                    <section id="about" className="about bg-blue">
                         <div className="container">
 
                             <div className="row justify-content-between align-items-center">
@@ -65,7 +65,7 @@ class KidsSportsClub extends Component {
 
                         </div>
                     </section>
-                    <section id="about" className="about section-bg">
+                    <section id="about" className="about bg-blue">
                         <div className="container">
 
                             <div className="row justify-content-between align-items-center">
@@ -97,7 +97,7 @@ class KidsSportsClub extends Component {
 
                         </div>
                     </section>
-                    <section id="about" className="about section-bg">
+                    <section id="about" className="about bg-blue">
                         <div className="container">
 
                             <div className="row justify-content-between align-items-center">

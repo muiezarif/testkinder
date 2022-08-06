@@ -21,9 +21,9 @@ class Home extends Component {
                                 <div>
                                     <a href="#contact" className="btn-get-started scrollto">{this.props.translation("home_layout_first_section_button")}</a>
                                 </div>
-                                <div>
-                                    <p className="mt-3">{this.props.translation("home_layout_first_section_paragraph2")}</p>
-                                </div>
+                                {/*<div>*/}
+                                {/*    <p className="mt-3">{this.props.translation("home_layout_first_section_paragraph2")}</p>*/}
+                                {/*</div>*/}
                             </div>
                             <div className="col-lg-6 order-1 order-lg-2 hero-img">
                                 <img src="/images/pic1.jpg" className="img-fluid animated rounded-3" alt=""/>
@@ -34,7 +34,7 @@ class Home extends Component {
                 </section>
                 <main id="main">
 
-                    <section id="about" className="about section-bg">
+                    <section id="about" className="about  bg-blue">
                         <div className="container">
 
                             <div className="row justify-content-between align-items-center">
@@ -75,7 +75,7 @@ class Home extends Component {
                             </div>
                         </div>
                     </section>
-                    <section id="about" className="about section-bg">
+                    <section id="about" className="about bg-blue">
                         <div className="container">
 
                             <div className="row justify-content-between align-items-center">
@@ -114,7 +114,7 @@ class Home extends Component {
                             </div>
                         </div>
                     </section>
-                    <section id="about" className="about section-bg">
+                    <section id="about" className="about bg-blue">
                         <div className="section-title">
                             <h2>{this.props.translation("home_layout_sixth_section_heading")}</h2>
                             {/*<p>Check out the great services we offer</p>*/}
