@@ -41,6 +41,7 @@ function MyApp({ Component, pageProps }) {
           </Head>
           <Script src="https://code.jquery.com/jquery-2.1.3.min.js"/>
           <Script src="/vendor/aos/aos.js"/>
+          <Script src="/vendor/bootstrap/js/bootstrap.js"/>
           <Script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"/>
           <Script src="/vendor/glightbox/js/glightbox.min.js"/>
           <Script src="/vendor/isotope-layout/isotope.pkgd.min.js"/>
