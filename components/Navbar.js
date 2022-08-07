@@ -169,13 +169,13 @@ class Navbar extends Component {
                                         <li><a className="cursor-pointer" onClick={this.onKidsSportsClubsRegionalTrainingsClick}>{this.props.translation("menu_regional_trainings")}</a></li>
                                     </ul>
                                 </li>
-                                {/*<li className="dropdown"><a className="cursor-pointer" onClick={this.onFranchiseClick}><span>{this.props.translation("menu_franchise_jobs")}</span> <i className="bi bi-chevron-down"/></a>*/}
-                                {/*    <ul>*/}
-                                {/*        <li><a className="cursor-pointer" onClick={this.onFranchiseBecomeCoachClick}>{this.props.translation("menu_become_coach")}</a></li>*/}
-                                {/*        <li><a className="cursor-pointer" onClick={this.onFranchiseRegionalBusinessLeaderClick}>{this.props.translation("menu_regional_business_leader")}</a></li>*/}
-                                {/*        <li><a className="cursor-pointer" onClick={this.onFranchiseBecomeFranchiseClick}>{this.props.translation("menu_become_franchise")}</a></li>*/}
-                                {/*    </ul>*/}
-                                {/*</li>*/}
+                                <li className="dropdown"><a className="cursor-pointer" onClick={this.onFranchiseClick}><span>{this.props.translation("menu_franchise_jobs")}</span> <i className="bi bi-chevron-down"/></a>
+                                    <ul>
+                                        <li><a className="cursor-pointer" onClick={this.onFranchiseBecomeCoachClick}>{this.props.translation("menu_become_coach")}</a></li>
+                                        {/*<li><a className="cursor-pointer" onClick={this.onFranchiseRegionalBusinessLeaderClick}>{this.props.translation("menu_regional_business_leader")}</a></li>*/}
+                                        <li><a className="cursor-pointer" onClick={this.onFranchiseBecomeFranchiseClick}>{this.props.translation("menu_become_franchise")}</a></li>
+                                    </ul>
+                                </li>
                                 <li><a className="nav-link scrollto cursor-pointer" onClick={this.onContactClick}>{this.props.translation("menu_contact")}</a></li>
                                 <li><a className="nav-link scrollto cursor-pointer" onClick={this.onENClick}>en</a></li>
                                 <li><a className="text-white">|</a></li>

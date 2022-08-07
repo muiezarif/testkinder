@@ -46,6 +46,9 @@ a {
   background: #354DB7;
   border-bottom: 4px dotted #ebe646;
 }
+.bg-light-blue{
+  background: #577BC1;
+}
 .services{
   border-bottom: 1px solid #ebe646;
 }

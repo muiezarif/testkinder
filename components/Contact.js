@@ -24,7 +24,7 @@ class Contact extends Component {
         return (
             <div>
                 <Navbar translation ={this.props.translation}/>
-                <section id="contact" className="contact section-bg">
+                <section id="contact" className="contact bg-light-blue">
                     <div className="container" data-aos="fade-up">
 
                         <div className="section-title">

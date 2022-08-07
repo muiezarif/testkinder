@@ -33,8 +33,17 @@ class Home extends Component {
 
                 </section>
                 <main id="main">
-
                     <section id="about" className="about  bg-blue">
+                        <div className="container">
+
+                            <div className="row justify-content-between align-items-center">
+                                <div className="col-lg-12 col-md-12 col-xs-12 d-flex align-items-center justify-content-center about-img">
+                                    <img src="kids-fit-concept.png" className="img-fluid rounded-3" alt="" data-aos="zoom-in"/>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="about" className="about section-bg">
                         <div className="container">
 
                             <div className="row justify-content-between align-items-center">
@@ -55,7 +64,7 @@ class Home extends Component {
 
                         </div>
                     </section>
-                    <section id="about" className="about section-bg">
+                    <section id="about" className="about bg-blue">
                         <div className="container">
 
                             <div className="row justify-content-between align-items-center">
@@ -75,7 +84,7 @@ class Home extends Component {
                             </div>
                         </div>
                     </section>
-                    <section id="about" className="about bg-blue">
+                    <section id="about" className="about section-bg">
                         <div className="container">
 
                             <div className="row justify-content-between align-items-center">
@@ -95,7 +104,7 @@ class Home extends Component {
                             </div>
                         </div>
                     </section>
-                    <section id="about" className="about section-bg">
+                    <section id="about" className="about bg-blue">
                         <div className="container">
 
                             <div className="row justify-content-between align-items-center">
@@ -114,7 +123,7 @@ class Home extends Component {
                             </div>
                         </div>
                     </section>
-                    <section id="about" className="about bg-blue">
+                    <section id="about" className="about section-bg">
                         <div className="section-title">
                             <h2>{this.props.translation("home_layout_sixth_section_heading")}</h2>
                             {/*<p>Check out the great services we offer</p>*/}
