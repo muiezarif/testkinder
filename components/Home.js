@@ -33,7 +33,7 @@ class Home extends Component {
 
                 </section>
                 <main id="main">
-                    <section id="about" className="about  bg-blue">
+                    <section id="about" className="about  bg-light-blue">
                         <div className="container">
 
                             <div className="row justify-content-between align-items-center">
@@ -64,7 +64,7 @@ class Home extends Component {
 
                         </div>
                     </section>
-                    <section id="about" className="about bg-blue">
+                    <section id="about" className="about bg-light-blue">
                         <div className="container">
 
                             <div className="row justify-content-between align-items-center">
@@ -104,7 +104,7 @@ class Home extends Component {
                             </div>
                         </div>
                     </section>
-                    <section id="about" className="about bg-blue">
+                    <section id="about" className="about bg-light-blue">
                         <div className="container">
 
                             <div className="row justify-content-between align-items-center">
