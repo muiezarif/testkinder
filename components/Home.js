@@ -26,7 +26,7 @@ class Home extends Component {
                                 {/*</div>*/}
                             </div>
                             <div className="col-lg-6 order-1 order-lg-2 hero-img">
-                                <img src="/images/pic1.jpg" className="img-fluid animated rounded-3" alt=""/>
+                                <img src="/images/pic1.jpg" className=" animated rounded-3" alt=""/>
                             </div>
                         </div>
                     </div>

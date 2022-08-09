@@ -176,7 +176,7 @@ class Navbar extends Component {
                                         <li><a className="cursor-pointer" onClick={this.onFranchiseBecomeFranchiseClick}>{this.props.translation("menu_become_franchise")}</a></li>
                                     </ul>
                                 </li>
-                                <li><a className="nav-link scrollto cursor-pointer" onClick={this.onContactClick}>{this.props.translation("menu_contact")}</a></li>
+                                <li><a className="nav-link scrollto cursor-pointer" onClick={this.onContactClick}><span>{this.props.translation("menu_contact")}</span></a></li>
                                 <li><a className="nav-link scrollto cursor-pointer" onClick={this.onENClick}>en</a></li>
                                 <li><a className="text-white">|</a></li>
                                 <li><a className="nav-link scrollto cursor-pointer" onClick={this.onDEClick}>de</a></li>

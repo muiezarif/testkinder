@@ -141,7 +141,7 @@ class SportsSchool extends Component {
 
                                     </div>
                                     <div className="col-lg-5 d-flex align-items-center justify-content-center about-img">
-                                        <img src="/images/pic36.jpg" className="img-fluid rounded-3" alt="" data-aos="zoom-in"/>
+                                        <img src="/images/sports.png" className="img-fluid rounded-3" alt="" data-aos="zoom-in"/>
                                     </div>
                                     {/*<div>*/}
                                     {/*    <a className="btn-get-started scrollto cursor-pointer">Details</a>*/}
@@ -157,7 +157,7 @@ class SportsSchool extends Component {
 
                                     </div>
                                     <div className="col-lg-5 d-flex align-items-center justify-content-center about-img">
-                                        <img src="/images/pic37.jpg" className="img-fluid rounded-3" alt="" data-aos="zoom-in"/>
+                                        <img src="/images/education.png" className="img-fluid rounded-3" alt="" data-aos="zoom-in"/>
                                     </div>
                                     {/*<div>*/}
                                     {/*    <a className="btn-get-started scrollto cursor-pointer">Details</a>*/}
@@ -183,7 +183,7 @@ class SportsSchool extends Component {
 
                                     </div>
                                     <div className="col-lg-5 d-flex align-items-center justify-content-center about-img">
-                                        <img src="/images/pic38.jpg" className="img-fluid rounded-3" alt="" data-aos="zoom-in"/>
+                                        <img src="/images/sports2.png" className="img-fluid rounded-3" alt="" data-aos="zoom-in"/>
                                     </div>
                                     {/*<div>*/}
                                     {/*    <a className="btn-get-started scrollto cursor-pointer">Details</a>*/}
@@ -199,7 +199,7 @@ class SportsSchool extends Component {
 
                                     </div>
                                     <div className="col-lg-5 d-flex align-items-center justify-content-center about-img">
-                                        <img src="/images/pic39.jpg" className="img-fluid rounded-3" alt="" data-aos="zoom-in"/>
+                                        <img src="/images/education2.png" className="img-fluid rounded-3" alt="" data-aos="zoom-in"/>
                                     </div>
                                     {/*<div>*/}
                                     {/*    <a className="btn-get-started scrollto cursor-pointer">Details</a>*/}
@@ -226,7 +226,7 @@ class SportsSchool extends Component {
 
                                     </div>
                                     <div className="col-lg-5 d-flex align-items-center justify-content-center about-img">
-                                        <img src="/images/pic40.jpg" className="img-fluid rounded-3" alt="" data-aos="zoom-in"/>
+                                        <img src="/images/sports3.png" className="img-fluid rounded-3" alt="" data-aos="zoom-in"/>
                                     </div>
                                     {/*<div>*/}
                                     {/*    <a className="btn-get-started scrollto cursor-pointer">Details</a>*/}
@@ -242,7 +242,7 @@ class SportsSchool extends Component {
 
                                     </div>
                                     <div className="col-lg-5 d-flex align-items-center justify-content-center about-img">
-                                        <img src="/images/pic41.jpg" className="img-fluid rounded-3" alt="" data-aos="zoom-in"/>
+                                        <img src="/images/education3.png" className="img-fluid rounded-3" alt="" data-aos="zoom-in"/>
                                     </div>
                                     {/*<div>*/}
                                     {/*    <a className="btn-get-started scrollto cursor-pointer">Details</a>*/}
