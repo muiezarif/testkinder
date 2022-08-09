@@ -120,14 +120,14 @@ class Navbar extends Component {
                     <div className="container d-flex align-items-center justify-content-between">
 
                         <div className="logo">
-                            <h1 className="text-light"><div onClick={this.onHomeClick}><img src="/kids-fit-logo2.png" alt=""/></div></h1>
+                            <h1 className="text-light"><div onClick={this.onHomeClick} className="cursor-pointer"><img src="/kids-fit-logo2.png" alt=""/></div></h1>
                             {/*Uncomment below if you prefer to use an image log*/}
                             {/*<a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>*/}
                         </div>
 
                         <nav id="navbar" className="navbar">
                             <ul>
-                                <li><a className="nav-link scrollto cursor-pointer" onClick={this.onHomeClick}>{this.props.translation("menu_home")}</a></li>
+                                {/*<li><a className="nav-link scrollto cursor-pointer" onClick={this.onHomeClick}>{this.props.translation("menu_home")}</a></li>*/}
                                 <li className="dropdown"><a className="cursor-pointer" onClick={this.onSportsForKidsClick}><span>{this.props.translation("menu_sports_for_kids")}</span> <i className="bi bi-chevron-down"/></a>
                                     <ul>
                                         <li><a className="cursor-pointer" onClick={this.onSportsForKidsSportsSchoolClick}>{this.props.translation("menu_sport_school")}</a></li>
@@ -182,7 +182,7 @@ class Navbar extends Component {
                                 <li><a className="nav-link scrollto cursor-pointer" onClick={this.onDEClick}>de</a></li>
                                 {/*<li><a className="getstarted scrollto" href="#about">Get Started</a></li>*/}
                             </ul>
-                            <i className="bi bi-list mobile-nav-toggle navbar-toggler"></i>
+                            <i className="bi bi-list text-white mobile-nav-toggle navbar-toggler"/>
                         </nav>
                     </div>
                 </header>

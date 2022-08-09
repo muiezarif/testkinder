@@ -23,33 +23,33 @@ class MyDocument extends Document {
                     />
                     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,600,600i,700,700i" rel="stylesheet"/>
                     <link rel="apple-touch-icon" href="/images/apple-touch-icon.png" />
-                    <link href="static/vendor/aos/aos.css" rel="stylesheet"/>
-                    <link href="static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
-                    <link href="static/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet"/>
-                    <link href="static/vendor/boxicons/css/boxicons.min.css" rel="stylesheet"/>
-                    <link href="static/vendor/glightbox/css/glightbox.min.css" rel="stylesheet"/>
-                    <link href="static/vendor/swiper/swiper-bundle.min.css" rel="stylesheet"/>
-                    <link href="static/css/style.css" rel="stylesheet"/>
+                    <link href="/vendor/aos/aos.css" rel="stylesheet"/>
+                    <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+                    <link href="/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet"/>
+                    <link href="/vendor/boxicons/css/boxicons.min.css" rel="stylesheet"/>
+                    <link href="/vendor/glightbox/css/glightbox.min.css" rel="stylesheet"/>
+                    <link href="/vendor/swiper/swiper-bundle.min.css" rel="stylesheet"/>
+                    <link href="/css/style.css" rel="stylesheet"/>
                 </Head>
                 <body>
                 <Main />
                 <NextScript />
                 <div id="modal-root"></div>
                 <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
-                <script src="static/vendor/aos/aos.js"></script>
-                <script src="static/vendor/bootstrap/js/bootstrap.min.js"></script>
-                <script src="static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-                <script src="static/vendor/glightbox/js/glightbox.min.js"></script>
-                <script src="static/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-                <script src="static/vendor/swiper/swiper-bundle.min.js"></script>
-                <script src="static/vendor/php-email-form/validate.js"></script>
+                <script src="/vendor/aos/aos.js"></script>
+                <script src="/vendor/bootstrap/js/bootstrap.min.js"></script>
+                <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+                <script src="/vendor/glightbox/js/glightbox.min.js"></script>
+                <script src="/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+                <script src="/vendor/swiper/swiper-bundle.min.js"></script>
+                <script src="/vendor/php-email-form/validate.js"></script>
 
 
                 <script src="js/main.js"></script>
                 {/* eslint-disable-next-line @next/next/no-sync-scripts */}
-                <script type="module" src="/js/jquery-3.2.1.min.js"/>
-                {/* eslint-disable-next-line @next/next/no-sync-scripts */}
-                <script type="module" src="/js/bootstrap.min.js"/>
+                {/*<script type="module" src="/js/jquery-3.2.1.min.js"/>*/}
+                {/*/!* eslint-disable-next-line @next/next/no-sync-scripts *!/*/}
+                {/*<script type="module" src="/js/bootstrap.min.js"/>*/}
                 </body>
             </Html>
         );

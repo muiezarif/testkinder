@@ -79,7 +79,7 @@ class Home extends Component {
 
                                 </div>
                                 <div className="col-lg-5 d-flex align-items-center justify-content-center about-img">
-                                    <img src="/images/pic3.jpg" className="img-fluid rounded-3 img-custom-style img-custom-style" alt="" data-aos="zoom-in"/>
+                                    <img src="/images/pic3.jpg" className="img-fluid rounded-3 img-custom-style" alt="" data-aos="zoom-in"/>
                                 </div>
                             </div>
                         </div>

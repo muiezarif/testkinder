@@ -31,22 +31,22 @@ function MyApp({ Component, pageProps }) {
             <title>Kids-Fit</title>
             <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" />
             <link rel="apple-touch-icon" href="/images/apple-touch-icon.png" />
-            <link href="/vendor/aos/aos.css" rel="stylesheet"/>
-            <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
-            <link href="/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet"/>
-            <link href="/vendor/boxicons/css/boxicons.min.css" rel="stylesheet"/>
-            <link href="/vendor/glightbox/css/glightbox.min.css" rel="stylesheet"/>
-            <link href="/vendor/swiper/swiper-bundle.min.css" rel="stylesheet"/>
-            <link href="/css/style.css" rel="stylesheet"/>
+            {/*<link href="/vendor/aos/aos.css" rel="stylesheet"/>*/}
+            {/*<link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>*/}
+            {/*<link href="/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet"/>*/}
+            {/*<link href="/vendor/boxicons/css/boxicons.min.css" rel="stylesheet"/>*/}
+            {/*<link href="/vendor/glightbox/css/glightbox.min.css" rel="stylesheet"/>*/}
+            {/*<link href="/vendor/swiper/swiper-bundle.min.css" rel="stylesheet"/>*/}
+            {/*<link href="/css/style.css" rel="stylesheet"/>*/}
           </Head>
-          <Script src="https://code.jquery.com/jquery-2.1.3.min.js"/>
-          <Script src="/vendor/aos/aos.js"/>
-          <Script src="/vendor/bootstrap/js/bootstrap.js"/>
-          <Script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"/>
-          <Script src="/vendor/glightbox/js/glightbox.min.js"/>
-          <Script src="/vendor/isotope-layout/isotope.pkgd.min.js"/>
-          <Script src="/vendor/swiper/swiper-bundle.min.js"/>
-          <Script src="/vendor/php-email-form/validate.js"/>
+          {/*<Script src="https://code.jquery.com/jquery-2.1.3.min.js"/>*/}
+          {/*<Script src="/vendor/aos/aos.js"/>*/}
+          {/*<Script src="/vendor/bootstrap/js/bootstrap.js"/>*/}
+          {/*<Script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"/>*/}
+          {/*<Script src="/vendor/glightbox/js/glightbox.min.js"/>*/}
+          {/*<Script src="/vendor/isotope-layout/isotope.pkgd.min.js"/>*/}
+          {/*<Script src="/vendor/swiper/swiper-bundle.min.js"/>*/}
+          {/*<Script src="/vendor/php-email-form/validate.js"/>*/}
           {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
           <Component {...pageProps} />
 
