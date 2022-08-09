@@ -79,7 +79,7 @@ class Home extends Component {
 
                                 </div>
                                 <div className="col-lg-5 d-flex align-items-center justify-content-center about-img">
-                                    <img src="/images/pic3.jpg" className="img-fluid rounded-3" alt="" data-aos="zoom-in"/>
+                                    <img src="/images/pic3.jpg" className="img-fluid rounded-3 img-custom-style img-custom-style" alt="" data-aos="zoom-in"/>
                                 </div>
                             </div>
                         </div>
@@ -89,7 +89,7 @@ class Home extends Component {
 
                             <div className="row justify-content-between align-items-center">
                                 <div className="col-lg-5 d-flex align-items-center justify-content-center about-img">
-                                    <img src="/images/pic4.jpg" className="img-fluid rounded-3" alt="" data-aos="zoom-in"/>
+                                    <img src="/images/pic4.jpg" className="img-fluid rounded-3 img-custom-style" alt="" data-aos="zoom-in"/>
                                 </div>
                                 <div className="col-lg-6 pt-5 pt-lg-0">
                                     <h3 data-aos="fade-up">{this.props.translation("home_layout_fourth_section_heading")}</h3>
@@ -118,7 +118,7 @@ class Home extends Component {
                                     <p data-aos="fade-up" data-aos-delay="100">{this.props.translation("home_layout_fourth_section_point6")}</p>
                                 </div>
                                 <div className="col-lg-5 d-flex align-items-center justify-content-center about-img">
-                                    <img src="/images/pic5.JPG" className="img-fluid rounded" alt="" data-aos="zoom-in"/>
+                                    <img src="/images/pic5.JPG" className="img-fluid rounded img-custom-style" alt="" data-aos="zoom-in"/>
                                 </div>
                             </div>
                         </div>

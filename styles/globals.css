@@ -1278,3 +1278,7 @@ p,span,div,b,a{
 .img-fluid{
   height: 70%;
 }
+.img-custom-style{
+  border: 10px solid #ffffff;
+  border-radius: 20px;
+}
