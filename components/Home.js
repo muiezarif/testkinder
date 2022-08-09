@@ -38,7 +38,7 @@ class Home extends Component {
 
                             <div className="row justify-content-between align-items-center">
                                 <div className="col-lg-12 col-md-12 col-xs-12 d-flex align-items-center justify-content-center about-img">
-                                    <img src="kids-fit-concept.png" className="img-fluid rounded-3" alt="" data-aos="zoom-in"/>
+                                    <img src="kids-fit-concept2.png" className="img-fluid rounded-3" alt="" data-aos="zoom-in"/>
                                 </div>
                             </div>
                         </div>

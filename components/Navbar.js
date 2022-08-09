@@ -120,7 +120,7 @@ class Navbar extends Component {
                     <div className="container d-flex align-items-center justify-content-between">
 
                         <div className="logo">
-                            <h1 className="text-light"><div onClick={this.onHomeClick}><img src="/kinder-fit-logo.png" alt=""/></div></h1>
+                            <h1 className="text-light"><div onClick={this.onHomeClick}><img src="/kids-fit-logo2.png" alt=""/></div></h1>
                             {/*Uncomment below if you prefer to use an image log*/}
                             {/*<a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>*/}
                         </div>
