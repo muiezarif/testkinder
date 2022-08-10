@@ -26,7 +26,7 @@ class BecomeFranchise extends Component {
                                 {/*</div>*/}
                             </div>
                             <div className="col-lg-6 order-1 order-lg-2 hero-img">
-                                <img src="/images/pic123.jpg" className="img-fluid animated rounded-3" alt=""/>
+                                <img src="/images/pic127.png" className="img-fluid animated rounded-3" alt=""/>
                             </div>
                         </div>
                     </div>
@@ -141,7 +141,7 @@ class BecomeFranchise extends Component {
 
                                     </div>
                                     <div className="col-lg-5 d-flex align-items-center justify-content-center about-img">
-                                        <img src="/images/pic36.jpg" className="img-fluid rounded-3" alt="" data-aos="zoom-in"/>
+                                        <img src="/images/tasks.png" className="img-fluid rounded-3" alt="" data-aos="zoom-in"/>
                                     </div>
                                     {/*<div>*/}
                                     {/*    <a className="btn-get-started scrollto cursor-pointer">Details</a>*/}
@@ -157,7 +157,7 @@ class BecomeFranchise extends Component {
 
                                     </div>
                                     <div className="col-lg-5 d-flex align-items-center justify-content-center about-img">
-                                        <img src="/images/pic124.jpg" className="img-fluid rounded-3" alt="" data-aos="zoom-in"/>
+                                        <img src="/images/organization.png" className="img-fluid rounded-3" alt="" data-aos="zoom-in"/>
                                     </div>
                                     {/*<div>*/}
                                     {/*    <a className="btn-get-started scrollto cursor-pointer">Details</a>*/}

@@ -26,7 +26,7 @@ class FirstAidCourses extends Component {
                                 {/*</div>*/}
                             </div>
                             <div className="col-lg-6 order-1 order-lg-2 hero-img">
-                                <img src="/images/pic99.png" className="img-fluid animated rounded-3" alt=""/>
+                                <img src="/images/first-aid-kit.png" className="img-fluid animated rounded-3" alt=""/>
                             </div>
                         </div>
                     </div>

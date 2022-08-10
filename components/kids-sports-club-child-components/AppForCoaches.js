@@ -8,7 +8,7 @@ class AppForCoaches extends Component {
         return (
             <div>
                 <Navbar translation ={this.props.translation}/>
-                <section id="hero" className="d-flex align-items-center">
+                <section id="hero" className="d-flex align-items-center" >
 
                     <div className="container">
                         <div className="row gy-4">
@@ -128,7 +128,7 @@ class AppForCoaches extends Component {
                                 <p data-aos="fade-up" data-aos-delay="100">{this.props.translation("ksc_afc_layout_fourth_section_text")}</p>
                             </div>
                             <div className="col-lg-5 d-flex align-items-center justify-content-center about-img">
-                                <img src="/images/pic108.jpg" className="img-fluid rounded-3" alt="" data-aos="zoom-in"/>
+                                <img src="/images/pic108.jpg" className="img-fluid rounded-3 img-custom-style" alt="" data-aos="zoom-in"/>
                             </div>
                         </div>
                     </div>
@@ -138,7 +138,7 @@ class AppForCoaches extends Component {
 
                         <div className="row justify-content-between align-items-center">
                             <div className="col-lg-5 d-flex align-items-center justify-content-center about-img">
-                                <img src="/images/pic109.jpg" className="img-fluid rounded-3" alt="" data-aos="zoom-in"/>
+                                <img src="/images/pic109.jpg" className="img-fluid rounded-3 img-custom-style" alt="" data-aos="zoom-in"/>
                             </div>
                             <div className="col-lg-6 pt-5 pt-lg-0">
                                 <h3 data-aos="fade-up">{this.props.translation("ksc_afc_layout_fifth_section_heading")}</h3>
@@ -158,7 +158,7 @@ class AppForCoaches extends Component {
                                 <p data-aos="fade-up" data-aos-delay="100">{this.props.translation("ksc_afc_layout_sixth_section_text")}</p>
                             </div>
                             <div className="col-lg-5 d-flex align-items-center justify-content-center about-img">
-                                <img src="/images/pic110.jpg" className="img-fluid rounded" alt="" data-aos="zoom-in"/>
+                                <img src="/images/pic110.jpg" className="img-fluid rounded img-custom-style" alt="" data-aos="zoom-in"/>
                             </div>
                         </div>
                     </div>
