@@ -30,21 +30,24 @@ class MyDocument extends Document {
                     <link href="/vendor/glightbox/css/glightbox.min.css" rel="stylesheet"/>
                     <link href="/vendor/swiper/swiper-bundle.min.css" rel="stylesheet"/>
                     <link href="/css/style.css" rel="stylesheet"/>
+
+
+                    <script src="/vendor/aos/aos.js"></script>
+                    <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+                    <script src="/vendor/glightbox/js/glightbox.min.js"></script>
+                    <script src="/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+                    <script src="/vendor/swiper/swiper-bundle.min.js"></script>
+                    <script src="/vendor/php-email-form/validate.js"></script>
+
+
+                    <script src="/js/main.js"></script>
                 </Head>
                 <body>
                 <Main />
                 <NextScript />
                 <div id="modal-root"></div>
 
-                <script src="vendor/aos/aos.js"></script>
-                <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-                <script src="vendor/glightbox/js/glightbox.min.js"></script>
-                <script src="vendor/isotope-layout/isotope.pkgd.min.js"></script>
-                <script src="vendor/swiper/swiper-bundle.min.js"></script>
-                <script src="vendor/php-email-form/validate.js"></script>
 
-
-                <script src="js/main.js"></script>
                 {/* eslint-disable-next-line @next/next/no-sync-scripts */}
                 {/*<script type="module" src="/js/jquery-3.2.1.min.js"/>*/}
                 {/*/!* eslint-disable-next-line @next/next/no-sync-scripts *!/*/}

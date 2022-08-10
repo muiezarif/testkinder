@@ -2,6 +2,9 @@ import React, {Component} from 'react';
 import Router from "next/router";
 
 class Navbar extends Component {
+    state = {
+        mobileNav:false
+    }
     onHomeClick = () => {
         Router.push("/")
     }
@@ -125,7 +128,7 @@ class Navbar extends Component {
                             {/*<a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>*/}
                         </div>
 
-                        <nav id="navbar" className="navbar">
+                        <nav id="navbar" className={this.state.mobileNav ? "navbar navbar-mobile" : "navbar"}>
                             <ul>
                                 {/*<li><a className="nav-link scrollto cursor-pointer" onClick={this.onHomeClick}>{this.props.translation("menu_home")}</a></li>*/}
                                 <li className="dropdown"><a className="cursor-pointer" onClick={this.onSportsForKidsClick}><span>{this.props.translation("menu_sports_for_kids")}</span> <i className="bi bi-chevron-down"/></a>
@@ -182,7 +185,8 @@ class Navbar extends Component {
                                 <li><a className="nav-link scrollto cursor-pointer" onClick={this.onDEClick}>de</a></li>
                                 {/*<li><a className="getstarted scrollto" href="#about">Get Started</a></li>*/}
                             </ul>
-                            <i className="bi bi-list text-white mobile-nav-toggle navbar-toggler"/>
+                            {this.state.mobileNav ? <i className="bi mobile-nav-toggle bi-x text-white" onClick={() => this.setState({mobileNav:!this.state.mobileNav})}/> : <i className="bi mobile-nav-toggle bi-list text-white" onClick={() => this.setState({mobileNav:!this.state.mobileNav})}/>}
+
                         </nav>
                     </div>
                 </header>
