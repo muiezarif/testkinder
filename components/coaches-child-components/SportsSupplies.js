@@ -26,7 +26,7 @@ class SportsSupplies extends Component {
                                 {/*</div>*/}
                             </div>
                             <div className="col-lg-6 order-1 order-lg-2 hero-img">
-                                <img src="/images/pic35.jpg" className="img-fluid animated rounded-3" alt=""/>
+                                <img src="/images/sports-supplies.png" className="img-fluid animated rounded-3" alt=""/>
                             </div>
                         </div>
                     </div>

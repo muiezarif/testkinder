@@ -10,7 +10,7 @@ class Home extends Component {
         return (
             <div>
                 <Navbar translation ={this.props.translation}/>
-                <section id="hero" className="d-flex align-items-center">
+                <section id="hero" className="d-flex align-items-center" style={{ backgroundImage: "url(/images/pic1.jpg)" }}>
 
                     <div className="container">
                         <div className="row gy-4">
@@ -25,9 +25,9 @@ class Home extends Component {
                                 {/*    <p className="mt-3">{this.props.translation("home_layout_first_section_paragraph2")}</p>*/}
                                 {/*</div>*/}
                             </div>
-                            <div className="col-lg-6 order-1 order-lg-2 hero-img">
-                                <img src="/images/pic1.jpg" className=" animated rounded-3" alt=""/>
-                            </div>
+                            {/*<div className="col-lg-6 order-1 order-lg-2 hero-img">*/}
+                            {/*    <img src="/images/pic1.jpg" className=" animated rounded-3" alt=""/>*/}
+                            {/*</div>*/}
                         </div>
                     </div>
 

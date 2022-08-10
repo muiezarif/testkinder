@@ -26,7 +26,7 @@ class Downloads extends Component {
                                 {/*</div>*/}
                             </div>
                             <div className="col-lg-6 order-1 order-lg-2 hero-img">
-                                <img src="/images/pic60.jpg" className="img-fluid animated rounded-3" alt=""/>
+                                <img src="/images/folder.png" className="img-fluid animated rounded-3" alt=""/>
                             </div>
                         </div>
                     </div>

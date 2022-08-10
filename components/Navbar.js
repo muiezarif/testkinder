@@ -154,7 +154,7 @@ class Navbar extends Component {
                                         <li><a className="cursor-pointer" onClick={this.onParentNatureAppClick}>{this.props.translation("menu_nature_app")}</a></li>
                                         <li><a className="cursor-pointer" onClick={this.onParentCounselorsClick}>{this.props.translation("menu_counselors")}</a></li>
                                         <li><a className="cursor-pointer" onClick={this.onParentOnlineVideoCoursesClick}>{this.props.translation("menu_online_video_courses")}</a></li>
-                                        <li><a className="cursor-pointer" onClick={this.onParentYoutubeClick}>{this.props.translation("menu_youtube")}</a></li>
+                                        {/*<li><a className="cursor-pointer" onClick={this.onParentYoutubeClick}>{this.props.translation("menu_youtube")}</a></li>*/}
                                         <li><a className="cursor-pointer" onClick={this.onParentInfoBlogsClick}>{this.props.translation("menu_info_blogs")}</a></li>
                                         <li><a className="cursor-pointer" onClick={this.onParentNewsClick}>{this.props.translation("menu_news")}</a></li>
                                     </ul>

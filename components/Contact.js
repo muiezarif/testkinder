@@ -107,7 +107,7 @@ class Contact extends Component {
                                     </div>
                                     <div className="my-3">
                                         <div className="loading">{this.props.translation("contact_loading")}</div>
-                                        <div className="error-message"></div>
+                                        {/*<div className="error-message"></div>*/}
                                         <div className="sent-message">{this.props.translation("contact_success")}</div>
                                     </div>
                                     <div className="text-center">

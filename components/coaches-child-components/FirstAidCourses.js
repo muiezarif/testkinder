@@ -8,7 +8,7 @@ class FirstAidCourses extends Component {
         return (
             <div>
                 <Navbar translation ={this.props.translation}/>
-                <section id="hero" className="d-flex align-items-center">
+                <section id="hero" className="d-flex align-items-center" >
 
                     <div className="container">
                         <div className="row gy-4">
@@ -26,7 +26,7 @@ class FirstAidCourses extends Component {
                                 {/*</div>*/}
                             </div>
                             <div className="col-lg-6 order-1 order-lg-2 hero-img">
-                                <img src="/images/pic69.jpg" className="img-fluid animated rounded-3" alt=""/>
+                                <img src="/images/first-aid-kit.png" className="img-fluid animated rounded-3" alt=""/>
                             </div>
                         </div>
                     </div>
@@ -141,7 +141,7 @@ class FirstAidCourses extends Component {
 
                                     </div>
                                     <div className="col-lg-5 d-flex align-items-center justify-content-center about-img">
-                                        <img src="/images/pic70.jpg" className="img-fluid rounded-3" alt="" data-aos="zoom-in"/>
+                                        <img src="/images/sports.png" className="img-fluid rounded-3" alt="" data-aos="zoom-in"/>
                                     </div>
                                     {/*<div>*/}
                                     {/*    <a className="btn-get-started scrollto cursor-pointer">Details</a>*/}
@@ -157,7 +157,7 @@ class FirstAidCourses extends Component {
 
                                     </div>
                                     <div className="col-lg-5 d-flex align-items-center justify-content-center about-img">
-                                        <img src="/images/pic71.jpg" className="img-fluid rounded-3" alt="" data-aos="zoom-in"/>
+                                        <img src="/images/education.png" className="img-fluid rounded-3" alt="" data-aos="zoom-in"/>
                                     </div>
                                     {/*<div>*/}
                                     {/*    <a className="btn-get-started scrollto cursor-pointer">Details</a>*/}
@@ -183,7 +183,7 @@ class FirstAidCourses extends Component {
 
                                     </div>
                                     <div className="col-lg-5 d-flex align-items-center justify-content-center about-img">
-                                        <img src="/images/pic72.jpg" className="img-fluid rounded-3" alt="" data-aos="zoom-in"/>
+                                        <img src="/images/sports2.png" className="img-fluid rounded-3" alt="" data-aos="zoom-in"/>
                                     </div>
                                     {/*<div>*/}
                                     {/*    <a className="btn-get-started scrollto cursor-pointer">Details</a>*/}
@@ -199,7 +199,7 @@ class FirstAidCourses extends Component {
 
                                     </div>
                                     <div className="col-lg-5 d-flex align-items-center justify-content-center about-img">
-                                        <img src="/images/pic73.jpg" className="img-fluid rounded-3" alt="" data-aos="zoom-in"/>
+                                        <img src="/images/education2.png" className="img-fluid rounded-3" alt="" data-aos="zoom-in"/>
                                     </div>
                                     {/*<div>*/}
                                     {/*    <a className="btn-get-started scrollto cursor-pointer">Details</a>*/}
@@ -226,7 +226,7 @@ class FirstAidCourses extends Component {
 
                                     </div>
                                     <div className="col-lg-5 d-flex align-items-center justify-content-center about-img">
-                                        <img src="/images/pic74.jpg" className="img-fluid rounded-3" alt="" data-aos="zoom-in"/>
+                                        <img src="/images/sports3.png" className="img-fluid rounded-3" alt="" data-aos="zoom-in"/>
                                     </div>
                                     {/*<div>*/}
                                     {/*    <a className="btn-get-started scrollto cursor-pointer">Details</a>*/}
@@ -242,7 +242,7 @@ class FirstAidCourses extends Component {
 
                                     </div>
                                     <div className="col-lg-5 d-flex align-items-center justify-content-center about-img">
-                                        <img src="/images/pic75.jpg" className="img-fluid rounded-3" alt="" data-aos="zoom-in"/>
+                                        <img src="/images/education3.png" className="img-fluid rounded-3" alt="" data-aos="zoom-in"/>
                                     </div>
                                     {/*<div>*/}
                                     {/*    <a className="btn-get-started scrollto cursor-pointer">Details</a>*/}

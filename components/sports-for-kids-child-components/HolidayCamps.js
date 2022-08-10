@@ -8,7 +8,7 @@ class HolidayCamps extends Component {
         return (
             <div>
                 <Navbar translation ={this.props.translation}/>
-                <section id="hero" className="d-flex align-items-center">
+                <section id="hero" className="d-flex align-items-center" style={{ backgroundImage: "url(/images/pic46.jpg)" }}>
 
                     <div className="container">
                         <div className="row gy-4">
@@ -25,9 +25,9 @@ class HolidayCamps extends Component {
                                 {/*    <p className="mt-3">{this.props.translation("sfk_hc_layout_first_section_text2")}</p>*/}
                                 {/*</div>*/}
                             </div>
-                            <div className="col-lg-6 order-1 order-lg-2 hero-img">
-                                <img src="/images/pic46.jpg" className="img-fluid animated rounded-3" alt=""/>
-                            </div>
+                            {/*<div className="col-lg-6 order-1 order-lg-2 hero-img">*/}
+                            {/*    <img src="/images/pic46.jpg" className="img-fluid animated rounded-3" alt=""/>*/}
+                            {/*</div>*/}
                         </div>
                     </div>
 
@@ -134,7 +134,7 @@ class HolidayCamps extends Component {
 
                                     </div>
                                     <div className="col-lg-5 d-flex align-items-center justify-content-center about-img">
-                                        <img src="/images/pic47.jpg" className="img-fluid rounded-3" alt="" data-aos="zoom-in"/>
+                                        <img src="/images/sports.png" className="img-fluid rounded-3" alt="" data-aos="zoom-in"/>
                                     </div>
                                     {/*<div>*/}
                                     {/*    <a className="btn-get-started scrollto cursor-pointer">Details</a>*/}
@@ -150,7 +150,7 @@ class HolidayCamps extends Component {
 
                                     </div>
                                     <div className="col-lg-5 d-flex align-items-center justify-content-center about-img">
-                                        <img src="/images/pic48.jpg" className="img-fluid rounded-3" alt="" data-aos="zoom-in"/>
+                                        <img src="/images/education.png" className="img-fluid rounded-3" alt="" data-aos="zoom-in"/>
                                     </div>
                                     {/*<div>*/}
                                     {/*    <a className="btn-get-started scrollto cursor-pointer">Details</a>*/}
@@ -175,7 +175,7 @@ class HolidayCamps extends Component {
                                         <p data-aos="fade-up" data-aos-delay="100">{this.props.translation("sfk_hc_layout_fifth_section_small_heading1_text")}</p>
                                     </div>
                                     <div className="col-lg-5 d-flex align-items-center justify-content-center about-img">
-                                        <img src="/images/pic38.jpg" className="img-fluid rounded-3" alt="" data-aos="zoom-in"/>
+                                        <img src="/images/sports2.png" className="img-fluid rounded-3" alt="" data-aos="zoom-in"/>
                                     </div>
                                     {/*<div>*/}
                                     {/*    <a className="btn-get-started scrollto cursor-pointer">Details</a>*/}
@@ -191,7 +191,7 @@ class HolidayCamps extends Component {
 
                                     </div>
                                     <div className="col-lg-5 d-flex align-items-center justify-content-center about-img">
-                                        <img src="/images/pic39.jpg" className="img-fluid rounded-3" alt="" data-aos="zoom-in"/>
+                                        <img src="/images/education2.png" className="img-fluid rounded-3" alt="" data-aos="zoom-in"/>
                                     </div>
                                     {/*<div>*/}
                                     {/*    <a className="btn-get-started scrollto cursor-pointer">Details</a>*/}
@@ -218,7 +218,7 @@ class HolidayCamps extends Component {
 
                                     </div>
                                     <div className="col-lg-5 d-flex align-items-center justify-content-center about-img">
-                                        <img src="/images/pic40.jpg" className="img-fluid rounded-3" alt="" data-aos="zoom-in"/>
+                                        <img src="/images/sports3.png" className="img-fluid rounded-3" alt="" data-aos="zoom-in"/>
                                     </div>
                                     {/*<div>*/}
                                     {/*    <a className="btn-get-started scrollto cursor-pointer">Details</a>*/}
@@ -235,7 +235,7 @@ class HolidayCamps extends Component {
 
                                     </div>
                                     <div className="col-lg-5 d-flex align-items-center justify-content-center about-img">
-                                        <img src="/images/pic41.jpg" className="img-fluid rounded-3" alt="" data-aos="zoom-in"/>
+                                        <img src="/images/education3.png" className="img-fluid rounded-3" alt="" data-aos="zoom-in"/>
                                     </div>
                                     {/*<div>*/}
                                     {/*    <a className="btn-get-started scrollto cursor-pointer">Details</a>*/}

@@ -50,7 +50,7 @@ a {
   background: #577BC1;
 }
 .services{
-  border-bottom: 1px solid #ebe646;
+  border-bottom: 4px dotted #ebe646;
 }
 .vl {
   border-left: 0.2px solid #ebe646;
@@ -364,6 +364,9 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   width: 100%;
   height: 70vh;
   background: #EC4B26;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
   border-bottom: 0px solid #fcebe3;
   margin: 72px 0 -72px 0;
 }
@@ -626,7 +629,7 @@ section {
   color: #fff;
 }
 .services .description {
-  font-size: 15px;
+  font-size: 13px;
   line-height: 28px;
   margin-bottom: 0;
 }
@@ -1275,12 +1278,12 @@ h1,h2,h3,h4,h5{
 }
 p,span,div,b,a,li{
   font-family: Montserrat, sans-serif;
-  font-size: 13px;
+  font-size: 14px;
 }
 .img-fluid{
-  height: 70%;
+  /*height: 70%;*/
 }
 .img-custom-style{
-  border: 15px solid #ffffff;
+  border: 10px solid #ffffff;
   border-radius: 10px;
 }
