@@ -32,7 +32,7 @@ class BecomeFranchise extends Component {
                     </div>
 
                 </section>
-                <section id="services" className="services bg-blue">
+                <section id="services" className="services bg-light-blue">
                     <div className="container" data-aos="fade-up">
 
                         <div className="section-title">
@@ -82,7 +82,7 @@ class BecomeFranchise extends Component {
 
                     </div>
                 </section>
-                <section id="services" className="services bg-blue">
+                <section id="services" className="services bg-light-blue">
                     <div className="container" data-aos="fade-up">
 
                         <div className="section-title">

@@ -33,7 +33,7 @@ class SportsForKids extends Component {
                 </section>
                 <main id="main">
 
-                    <section id="about" className="about bg-blue">
+                    <section id="about" className="about bg-light-blue">
                         <div className="container">
 
                             <div className="row justify-content-between align-items-center">
@@ -66,7 +66,7 @@ class SportsForKids extends Component {
 
                         </div>
                     </section>
-                    <section id="about" className="about bg-blue">
+                    <section id="about" className="about bg-light-blue">
                         <div className="container">
 
                             <div className="row justify-content-between align-items-center">
@@ -97,7 +97,7 @@ class SportsForKids extends Component {
 
                         </div>
                     </section>
-                    <section id="about" className="about bg-blue">
+                    <section id="about" className="about bg-light-blue">
                         <div className="container">
 
                             <div className="row justify-content-between align-items-center">
@@ -133,7 +133,7 @@ class SportsForKids extends Component {
                     {/*        <p>Text Text Text Text Text Text Text</p>*/}
                     {/*    </div>*/}
                     {/*</section>*/}
-                    <div className="bg-blue">
+                    <div className="bg-light-blue">
                     <Contact translation ={this.props.translation}/>
                     </div>
                 </main>

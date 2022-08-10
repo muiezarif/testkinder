@@ -35,14 +35,13 @@ class MyDocument extends Document {
                 <Main />
                 <NextScript />
                 <div id="modal-root"></div>
-                <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
-                <script src="/vendor/aos/aos.js"></script>
-                <script src="/vendor/bootstrap/js/bootstrap.min.js"></script>
-                <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-                <script src="/vendor/glightbox/js/glightbox.min.js"></script>
-                <script src="/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-                <script src="/vendor/swiper/swiper-bundle.min.js"></script>
-                <script src="/vendor/php-email-form/validate.js"></script>
+
+                <script src="vendor/aos/aos.js"></script>
+                <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+                <script src="vendor/glightbox/js/glightbox.min.js"></script>
+                <script src="vendor/isotope-layout/isotope.pkgd.min.js"></script>
+                <script src="vendor/swiper/swiper-bundle.min.js"></script>
+                <script src="vendor/php-email-form/validate.js"></script>
 
 
                 <script src="js/main.js"></script>
