@@ -96,8 +96,16 @@ class Contact extends Component {
                                     </div>
                                     <div className="form-group mt-3">
                                         <label htmlFor="name">{this.props.translation("contact_subject")}</label>
-                                        <input type="text" className="form-control" name="subject" onChange={handleChange} id="subject"
-                                               placeholder={this.props.translation("contact_subject")} required/>
+                                        {/*<input type="text" className="form-control" name="subject" onChange={handleChange} id="subject"*/}
+                                        {/*       placeholder={this.props.translation("contact_subject")} required/>*/}
+                                        <select name="subject" id="subject" className="form-control" onChange={handleChange}>
+                                            <option value="Trial-Request/Schnupperanfrage">Trial-Request / Schnupperanfrage</option>
+                                            <option value="Training-request/Schulungsanfrage">Training-request / Schulungsanfrage</option>
+                                            <option value="Club-request/Vereinsanfrage">Club-request / Vereinsanfrage</option>
+                                            <option value="Job|Franchise-request/Job|Franchise-Anfrage">Job|Franchise-request / Job|Franchise-Anfrage</option>
+                                            <option value="Organizational/Organisatorisches">Organizational / Organisatorisches</option>
+                                            <option value="Support">Support</option>
+                                        </select>
                                     </div>
 
                                     <div className="form-group mt-3">
