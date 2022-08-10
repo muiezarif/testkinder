@@ -35,12 +35,12 @@ class FranchiseJobs extends Component {
                 </section>
                 <main id="main">
 
-                    <section id="about" className="about section-bg">
+                    <section id="about" className="about bg-light-blue">
                         <div className="container">
 
                             <div className="row justify-content-between align-items-center">
                                 <div className="col-lg-5 d-flex align-items-center justify-content-center about-img">
-                                    <img src="/images/pic32.png" className="img-fluid rounded-3" alt="" data-aos="zoom-in"/>
+                                    <img src="/images/pic32.png" className="img-fluid rounded-3 img-custom-style" alt="" data-aos="zoom-in"/>
                                 </div>
                                 <div className="col-lg-6 pt-5 pt-lg-0">
                                     <h3 data-aos="fade-up">{this.props.translation("fj_layout_second_section_heading")}</h3>
@@ -61,18 +61,18 @@ class FranchiseJobs extends Component {
                                     <p data-aos="fade-up" data-aos-delay="100">{this.props.translation("fj_layout_second_section_text")}</p>
                                 </div>
                                 <div className="col-lg-5 d-flex align-items-center justify-content-center about-img">
-                                    <img src="/images/pic33.jpg" className="img-fluid rounded-3" alt="" data-aos="zoom-in"/>
+                                    <img src="/images/pic33.jpg" className="img-fluid rounded-3 img-custom-style" alt="" data-aos="zoom-in"/>
                                 </div>
                             </div>
 
                         </div>
                     </section>
-                    <section id="about" className="about section-bg">
+                    <section id="about" className="about bg-light-blue">
                         <div className="container">
 
                             <div className="row justify-content-between align-items-center">
                                 <div className="col-lg-5 d-flex align-items-center justify-content-center about-img">
-                                    <img src="/images/pic34.jpg" className="img-fluid rounded-3" alt="" data-aos="zoom-in"/>
+                                    <img src="/images/pic34.jpg" className="img-fluid rounded-3 img-custom-style" alt="" data-aos="zoom-in"/>
                                 </div>
                                 <div className="col-lg-6 pt-5 pt-lg-0">
                                     <h3 data-aos="fade-up">{this.props.translation("fj_layout_fourth_section_heading")}</h3>
