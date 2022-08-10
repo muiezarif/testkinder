@@ -133,10 +133,14 @@ class RegionalTrainings extends Component {
                         </div>
                         <div className="row">
                             <div className="col-md-6 col-lg-6 col-xs-6">
-                                <div className="row justify-content-between align-items-center">
+                                <div className="row justify-content-between ">
                                     <div className="col-lg-6 pt-5 pt-lg-0">
                                         <h3 data-aos="fade-up">{this.props.translation("coach_rt_layout_fourth_section_small_heading1")}</h3>
                                         <p data-aos="fade-up" data-aos-delay="100">{this.props.translation("coach_rt_layout_fourth_section_small_heading1_text")}</p>
+                                        <p data-aos="fade-up" data-aos-delay="100">{this.props.translation("coach_rt_layout_fourth_section_small_heading1_text2")}</p>
+                                        <p data-aos="fade-up" data-aos-delay="100">{this.props.translation("coach_rt_layout_fourth_section_small_heading1_text3")}</p>
+                                        <p data-aos="fade-up" data-aos-delay="100">{this.props.translation("coach_rt_layout_fourth_section_small_heading1_text4")}</p>
+                                        <p data-aos="fade-up" data-aos-delay="100">{this.props.translation("coach_rt_layout_fourth_section_small_heading1_text5")}</p>
 
 
                                     </div>
@@ -150,10 +154,13 @@ class RegionalTrainings extends Component {
                             </div>
                             <div className="col-md-6 col-lg-6 col-xs-6">
                                 {/*<div className=></div>*/}
-                                <div className="row justify-content-between align-items-center">
+                                <div className="row justify-content-between ">
                                     <div className="col-lg-6 pt-5 pt-lg-0">
                                         <h3 data-aos="fade-up">{this.props.translation("coach_rt_layout_fourth_section_small_heading2")}</h3>
                                         <p data-aos="fade-up" data-aos-delay="100">{this.props.translation("coach_rt_layout_fourth_section_small_heading2_text")}</p>
+                                        <p data-aos="fade-up" data-aos-delay="100">{this.props.translation("coach_rt_layout_fourth_section_small_heading2_text2")}</p>
+                                        <p data-aos="fade-up" data-aos-delay="100">{this.props.translation("coach_rt_layout_fourth_section_small_heading2_text3")}</p>
+                                        <p data-aos="fade-up" data-aos-delay="100">{this.props.translation("coach_rt_layout_fourth_section_small_heading2_text4")}</p>
 
                                     </div>
                                     <div className="col-lg-5 d-flex align-items-center justify-content-center about-img">
@@ -180,6 +187,10 @@ class RegionalTrainings extends Component {
                                     <div className="col-lg-6 pt-5 pt-lg-0">
                                         <h3 data-aos="fade-up">{this.props.translation("coach_rt_layout_fifth_section_small_heading1")}</h3>
                                         <p data-aos="fade-up" data-aos-delay="100">{this.props.translation("coach_rt_layout_fifth_section_small_heading1_text")}</p>
+                                        <p data-aos="fade-up" data-aos-delay="100">{this.props.translation("coach_rt_layout_fifth_section_small_heading1_text2")}</p>
+                                        <p data-aos="fade-up" data-aos-delay="100">{this.props.translation("coach_rt_layout_fifth_section_small_heading1_text3")}</p>
+                                        <p data-aos="fade-up" data-aos-delay="100">{this.props.translation("coach_rt_layout_fifth_section_small_heading1_text4")}</p>
+                                        <p data-aos="fade-up" data-aos-delay="100">{this.props.translation("coach_rt_layout_fifth_section_small_heading1_text5")}</p>
 
                                     </div>
                                     <div className="col-lg-5 d-flex align-items-center justify-content-center about-img">
@@ -196,6 +207,9 @@ class RegionalTrainings extends Component {
                                     <div className="col-lg-6 pt-5 pt-lg-0">
                                         <h3 data-aos="fade-up">{this.props.translation("coach_rt_layout_fifth_section_small_heading2")}</h3>
                                         <p data-aos="fade-up" data-aos-delay="100">{this.props.translation("coach_rt_layout_fifth_section_small_heading2_text")}</p>
+                                        <p data-aos="fade-up" data-aos-delay="100">{this.props.translation("coach_rt_layout_fifth_section_small_heading2_text2")}</p>
+                                        <p data-aos="fade-up" data-aos-delay="100">{this.props.translation("coach_rt_layout_fifth_section_small_heading2_text3")}</p>
+                                        <p data-aos="fade-up" data-aos-delay="100">{this.props.translation("coach_rt_layout_fifth_section_small_heading2_text4")}</p>
 
                                     </div>
                                     <div className="col-lg-5 d-flex align-items-center justify-content-center about-img">
@@ -223,6 +237,9 @@ class RegionalTrainings extends Component {
                                     <div className="col-lg-6 pt-5 pt-lg-0">
                                         <h3 data-aos="fade-up">{this.props.translation("coach_rt_layout_sixth_section_small_heading1")}</h3>
                                         <p data-aos="fade-up" data-aos-delay="100">{this.props.translation("coach_rt_layout_sixth_section_small_heading1_text")}</p>
+                                        <p data-aos="fade-up" data-aos-delay="100">{this.props.translation("coach_rt_layout_sixth_section_small_heading1_text2")}</p>
+                                        <p data-aos="fade-up" data-aos-delay="100">{this.props.translation("coach_rt_layout_sixth_section_small_heading1_text3")}</p>
+                                        <p data-aos="fade-up" data-aos-delay="100">{this.props.translation("coach_rt_layout_sixth_section_small_heading1_text4")}</p>
 
                                     </div>
                                     <div className="col-lg-5 d-flex align-items-center justify-content-center about-img">
@@ -239,6 +256,9 @@ class RegionalTrainings extends Component {
                                     <div className="col-lg-6 pt-5 pt-lg-0">
                                         <h3 data-aos="fade-up">{this.props.translation("coach_rt_layout_sixth_section_small_heading2")}</h3>
                                         <p data-aos="fade-up" data-aos-delay="100">{this.props.translation("coach_rt_layout_sixth_section_small_heading2_text")}</p>
+                                        <p data-aos="fade-up" data-aos-delay="100">{this.props.translation("coach_rt_layout_sixth_section_small_heading2_text2")}</p>
+                                        <p data-aos="fade-up" data-aos-delay="100">{this.props.translation("coach_rt_layout_sixth_section_small_heading2_text3")}</p>
+                                        <p data-aos="fade-up" data-aos-delay="100">{this.props.translation("coach_rt_layout_sixth_section_small_heading2_text4")}</p>
 
                                     </div>
                                     <div className="col-lg-5 d-flex align-items-center justify-content-center about-img">

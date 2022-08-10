@@ -1283,6 +1283,9 @@ p,span,div,b,a,li{
 .img-fluid{
   /*height: 70%;*/
 }
+p{
+  /*padding-top: 10px;*/
+}
 .img-custom-style{
   border: 10px solid #ffffff;
   border-radius: 10px;
