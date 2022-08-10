@@ -8,7 +8,7 @@ class OnlineVideoCourses extends Component {
         return (
             <div>
                 <Navbar translation ={this.props.translation}/>
-                <section id="hero" className="d-flex align-items-center">
+                <section id="hero" className="d-flex align-items-center" style={{ backgroundImage: "url(/images/pic83.jpg)" }}>
 
                     <div className="container">
                         <div className="row gy-4">
@@ -25,9 +25,9 @@ class OnlineVideoCourses extends Component {
                                 {/*    <p className="mt-3">{this.props.translation("parents_ovc_layout_first_section_text2")}</p>*/}
                                 {/*</div>*/}
                             </div>
-                            <div className="col-lg-6 order-1 order-lg-2 hero-img">
-                                <img src="/images/pic83.jpg" className="img-fluid animated rounded-3" alt=""/>
-                            </div>
+                            {/*<div className="col-lg-6 order-1 order-lg-2 hero-img">*/}
+                            {/*    <img src="/images/pic83.jpg" className="img-fluid animated rounded-3" alt=""/>*/}
+                            {/*</div>*/}
                         </div>
                     </div>
 
