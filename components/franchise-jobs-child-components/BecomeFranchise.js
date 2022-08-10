@@ -131,12 +131,15 @@ class BecomeFranchise extends Component {
                             <h3>{this.props.translation("fj_bf_layout_fourth_section_heading")}</h3>
                             {/*<p>Check out the great services we offer</p>*/}
                         </div>
-                        <div className="row align-items-center">
+                        <div className="row ">
                             <div className="col-md-6 col-lg-6 col-xs-6">
                                 <div className="row justify-content-between align-items-center">
                                     <div className="col-lg-6 pt-5 pt-lg-0">
                                         <h3 data-aos="fade-up">{this.props.translation("fj_bf_layout_fourth_section_small_heading1")}</h3>
                                         <p data-aos="fade-up" data-aos-delay="100">{this.props.translation("fj_bf_layout_fourth_section_small_heading1_text")}</p>
+                                        <p data-aos="fade-up" data-aos-delay="100">{this.props.translation("fj_bf_layout_fourth_section_small_heading1_text2")}</p>
+                                        <p data-aos="fade-up" data-aos-delay="100">{this.props.translation("fj_bf_layout_fourth_section_small_heading1_text3")}</p>
+                                        <p data-aos="fade-up" data-aos-delay="100">{this.props.translation("fj_bf_layout_fourth_section_small_heading1_text4")}</p>
 
 
                                     </div>
@@ -154,6 +157,12 @@ class BecomeFranchise extends Component {
                                     <div className="col-lg-6 pt-5 pt-lg-0">
                                         <h3 data-aos="fade-up">{this.props.translation("fj_bf_layout_fourth_section_small_heading2")}</h3>
                                         <p data-aos="fade-up" data-aos-delay="100">{this.props.translation("fj_bf_layout_fourth_section_small_heading2_text")}</p>
+                                        <p data-aos="fade-up" data-aos-delay="100">{this.props.translation("fj_bf_layout_fourth_section_small_heading2_text2")}</p>
+                                        <p data-aos="fade-up" data-aos-delay="100">{this.props.translation("fj_bf_layout_fourth_section_small_heading2_text3")}</p>
+                                        <p data-aos="fade-up" data-aos-delay="100">{this.props.translation("fj_bf_layout_fourth_section_small_heading2_text4")}</p>
+                                        <p data-aos="fade-up" data-aos-delay="100">{this.props.translation("fj_bf_layout_fourth_section_small_heading2_text5")}</p>
+                                        <p data-aos="fade-up" data-aos-delay="100">{this.props.translation("fj_bf_layout_fourth_section_small_heading2_text6")}</p>
+                                        <p data-aos="fade-up" data-aos-delay="100">{this.props.translation("fj_bf_layout_fourth_section_small_heading2_text7")}</p>
 
                                     </div>
                                     <div className="col-lg-5 d-flex align-items-center justify-content-center about-img">
