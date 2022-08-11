@@ -8,7 +8,7 @@ class OnlineVideoCourses extends Component {
         return (
             <div>
                 <Navbar translation ={this.props.translation}/>
-                <section id="hero" className="d-flex align-items-center" style={{ backgroundImage: "url(/images/pic83.jpg)" }}>
+                <section id="hero" className="d-flex" style={{ backgroundImage: "url(/images/pic83.jpg)" }}>
 
                     <div className="container">
                         <div className="row gy-4">

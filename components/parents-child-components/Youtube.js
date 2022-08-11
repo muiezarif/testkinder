@@ -8,7 +8,7 @@ class Youtube extends Component {
         return (
             <div>
                 <Navbar translation ={this.props.translation}/>
-                <section id="hero" className="d-flex align-items-center">
+                <section id="hero" className="d-flex">
 
                     <div className="container">
                         <div className="row gy-4">

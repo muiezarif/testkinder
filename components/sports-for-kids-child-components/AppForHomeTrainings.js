@@ -8,11 +8,11 @@ class AppForHomeTrainings extends Component {
         return (
             <div>
                 <Navbar translation ={this.props.translation}/>
-                <section id="hero" className="d-flex align-items-center justify-content-center">
+                <section id="hero" className="d-flex">
 
                     <div className="container">
                         <div className="row gy-4">
-                            <div className="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
+                            <div className="col-lg-6 order-2 order-lg-1 d-flex flex-column">
                                 <h1>{this.props.translation("sfk_afh_layout_first_section_heading")}
                                 </h1>
                                 {/*<h2>the kids-sport-concept for kids*/}

@@ -8,11 +8,11 @@ class BecomeFranchise extends Component {
         return (
             <div>
                 <Navbar translation ={this.props.translation}/>
-                <section id="hero" className="d-flex align-items-center">
+                <section id="hero" className="d-flex">
 
                     <div className="container">
                         <div className="row gy-4">
-                            <div className="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
+                            <div className="col-lg-6 col-md-6 order-2 order-lg-1 d-flex flex-column">
                                 <h1>{this.props.translation("fj_bf_layout_first_section_heading")}
                                 </h1>
                                 {/*<h2>the kids-sport-concept for kids*/}
@@ -25,7 +25,7 @@ class BecomeFranchise extends Component {
                                 {/*    <p className="mt-3">{this.props.translation("fj_bf_layout_first_section_text2")}</p>*/}
                                 {/*</div>*/}
                             </div>
-                            <div className="col-lg-6 order-1 order-lg-2 hero-img">
+                            <div className="col-lg-6 col-md-6 order-1 order-lg-2 hero-img">
                                 <img src="/images/pic127.png" className="img-fluid animated rounded-3" alt=""/>
                             </div>
                         </div>
