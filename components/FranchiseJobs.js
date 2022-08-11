@@ -10,7 +10,7 @@ class FranchiseJobs extends Component {
         return (
             <div>
                 <Navbar translation ={this.props.translation}/>
-                <section id="hero" className="d-flex align-items-center">
+                <section id="hero" className="d-flex align-items-center" style={{ height:"auto" }}>
 
                     <div className="container">
                         <div className="row gy-4 align-items-center justify-content-center p-5">

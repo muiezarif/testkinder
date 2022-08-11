@@ -8,10 +8,10 @@ class SportsForKids extends Component {
         return (
             <div>
                 <Navbar translation ={this.props.translation}/>
-                <section id="hero" className="d-flex align-items-center">
+                <section id="hero" className="d-flex align-items-center" style={{ height:"auto" }}>
 
                     <div className="container">
-                        <div className="row gy-4 align-items-center justify-content-center p-5">
+                        <div className="row gy-4 justify-content-center align-items-center p-5">
                             {/*<div className="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">*/}
                             {/*    <h1>{this.props.translation("sfk_layout_second_section_heading")}</h1>*/}
                             {/*    /!*<h2>the kids-sport-concept for kids*!/*/}

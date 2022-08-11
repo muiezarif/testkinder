@@ -42,12 +42,14 @@ a {
 .avatar-img{
   border-radius: 50%;
 }
-.bg-light-blue{
+.bg-blue{
   background: #354DB7;
   border-bottom: 4px dotted #ebe646;
 }
 .bg-light-blue{
-  background: #577BC1;
+  /*background: #577BC1;*/
+  background: #EB3A26;
+  border-bottom: 4px dotted #ebe646;
 }
 .services{
   border-bottom: 4px dotted #ebe646;
@@ -1302,4 +1304,7 @@ p{
   background-color: rgba(0,0,0,0.5); /* Black background with opacity */
   z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
   cursor: pointer; /* Add a pointer on hover */
+}
+.cus-h-auto{
+  height: auto;
 }
