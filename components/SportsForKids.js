@@ -122,7 +122,7 @@ class SportsForKids extends Component {
                                     <p data-aos="fade-up" data-aos-delay="100">{this.props.translation("sfk_layout_seventh_section_text")}</p>
                                 </div>
                                 <div className="col-lg-5 d-flex align-items-center justify-content-center about-img">
-                                    <img src="/images/pic11.jpg" className="img-fluid rounded-3 img-custom-style" alt="" data-aos="zoom-in"/>
+                                    <img src="/images/pic50.jpg" className="img-fluid rounded-3 img-custom-style" alt="" data-aos="zoom-in"/>
                                 </div>
                             </div>
 
