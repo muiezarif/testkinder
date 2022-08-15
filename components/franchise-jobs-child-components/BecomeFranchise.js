@@ -12,7 +12,7 @@ class BecomeFranchise extends Component {
 
                     <div className="container">
                         <div className="row gy-4">
-                            <div className="col-lg-6 col-md-6 order-2 order-lg-1 d-flex flex-column">
+                            <div className="col-lg-6 col-md-6 order-2 order-lg-1 d-flex flex-column pt-3">
                                 <h1>{this.props.translation("fj_bf_layout_first_section_heading")}
                                 </h1>
                                 {/*<h2>the kids-sport-concept for kids*/}

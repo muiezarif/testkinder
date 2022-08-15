@@ -12,7 +12,7 @@ class ClubMemberService extends Component {
 
                     <div className="container">
                         <div className="row gy-4">
-                            <div className="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
+                            <div className="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center pt-3">
                                 <h1>{this.props.translation("ksc_cms_layout_first_section_heading")}
                                 </h1>
                                 {/*<h2>the kids-sport-concept for kids*/}
