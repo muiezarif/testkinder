@@ -49,7 +49,7 @@ class Contact extends Component {
                                     <div className="email">
                                         <i className="bi bi-envelope"></i>
                                         <h4>{this.props.translation("contact_email")}:</h4>
-                                        <p>info@kids-fit.org</p>
+                                        <p>info@kinder-fit.de</p>
                                     </div>
 
                                     <div className="phone">
