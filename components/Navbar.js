@@ -117,6 +117,10 @@ class Navbar extends Component {
         Router.push("/", "/", {locale: "de"})
     }
     render() {
+        const handleClickDropdown = (e) => {
+            e.currentTarget.classList.toggle("dropdown-active")
+            // e.target.closest("ul").classList.toggle("dropdown-active")
+        }
         return (
             <div>
                 <header id="header" className="fixed-top d-flex align-items-center">
@@ -131,7 +135,7 @@ class Navbar extends Component {
                         <nav id="navbar" className={this.state.mobileNav ? "navbar navbar-mobile" : "navbar"}>
                             <ul>
                                 {/*<li><a className="nav-link scrollto cursor-pointer" onClick={this.onHomeClick}>{this.props.translation("menu_home")}</a></li>*/}
-                                <li className="dropdown"><a className="cursor-pointer" onClick={this.onSportsForKidsClick}><span>{this.props.translation("menu_sports_for_kids")}</span> <i className="bi bi-chevron-down"/></a>
+                                <li className="dropdown"><a className="cursor-pointer" onClick={this.onSportsForKidsClick}><span>{this.props.translation("menu_sports_for_kids")}</span> <i className="bi bi-chevron-down" onClick={handleClickDropdown}/></a>
                                     <ul>
                                         <li><a className="cursor-pointer" onClick={this.onSportsForKidsSportsSchoolClick}>{this.props.translation("menu_sport_school")}</a></li>
                                         <li><a className="cursor-pointer" onClick={this.onSportsForKidsSportsCoursesClick}>{this.props.translation("menu_sport_courses")}</a></li>
@@ -141,7 +145,7 @@ class Navbar extends Component {
                                         <li><a className="cursor-pointer" onClick={this.onSportsForKidsAppForHomeTrainingClick}>{this.props.translation("menu_app_for_hometraining")}</a></li>
                                     </ul>
                                 </li>
-                                <li className="dropdown"><a className="cursor-pointer" onClick={this.onCoachesClick}><span>{this.props.translation("menu_coaches")}</span> <i className="bi bi-chevron-down"/></a>
+                                <li className="dropdown"><a className="cursor-pointer" onClick={this.onCoachesClick}><span>{this.props.translation("menu_coaches")}</span> <i className="bi bi-chevron-down" onClick={handleClickDropdown}/></a>
                                     <ul>
                                         <li><a className="cursor-pointer" onClick={this.onCoachesOnlineVideoCoursesClick}>{this.props.translation("menu_online_video_courses")}</a></li>
                                         <li><a className="cursor-pointer" onClick={this.onCoachesDownloadsClick}>{this.props.translation("menu_downloads")}</a></li>
