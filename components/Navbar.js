@@ -3,7 +3,12 @@ import Router from "next/router";
 
 class Navbar extends Component {
     state = {
-        mobileNav:false
+        mobileNav:false,
+        sfkDrop:false,
+        coachDrop:false,
+        parentDrop:false,
+        clubDrop:false,
+        fjDrop:false
     }
     onHomeClick = () => {
         Router.push("/")
@@ -117,10 +122,10 @@ class Navbar extends Component {
         Router.push("/", "/", {locale: "de"})
     }
     render() {
-        const handleClickDropdown = (e) => {
-            e.currentTarget.classList.toggle("dropdown-active")
-            // e.target.closest("ul").classList.toggle("dropdown-active")
-        }
+        // const handleClickDropdown = (e) => {
+        //     e.currentTarget.classList.toggle("dropdown-active")
+        //     // e.target.closest("ul").classList.toggle("dropdown-active")
+        // }
         return (
             <div>
                 <header id="header" className="fixed-top d-flex align-items-center">
@@ -135,8 +140,8 @@ class Navbar extends Component {
                         <nav id="navbar" className={this.state.mobileNav ? "navbar navbar-mobile" : "navbar"}>
                             <ul>
                                 {/*<li><a className="nav-link scrollto cursor-pointer" onClick={this.onHomeClick}>{this.props.translation("menu_home")}</a></li>*/}
-                                <li className="dropdown"><a className="cursor-pointer" onClick={this.onSportsForKidsClick}><span>{this.props.translation("menu_sports_for_kids")}</span> <i className="bi bi-chevron-down" onClick={handleClickDropdown}/></a>
-                                    <ul>
+                                <li className="dropdown"><a className="cursor-pointer" ><span onClick={this.onSportsForKidsClick}>{this.props.translation("menu_sports_for_kids")}</span> <i className="bi bi-chevron-down" onClick={() => this.setState({sfkDrop:!this.state.sfkDrop})}/></a>
+                                    <ul className={this.state.sfkDrop ? "dropdown-active" : ""}>
                                         <li><a className="cursor-pointer" onClick={this.onSportsForKidsSportsSchoolClick}>{this.props.translation("menu_sport_school")}</a></li>
                                         <li><a className="cursor-pointer" onClick={this.onSportsForKidsSportsCoursesClick}>{this.props.translation("menu_sport_courses")}</a></li>
                                         <li><a className="cursor-pointer" onClick={this.onSportsForKidsHolidayCampsClick}>{this.props.translation("menu_holiday_camps")}</a></li>
@@ -145,8 +150,8 @@ class Navbar extends Component {
                                         <li><a className="cursor-pointer" onClick={this.onSportsForKidsAppForHomeTrainingClick}>{this.props.translation("menu_app_for_hometraining")}</a></li>
                                     </ul>
                                 </li>
-                                <li className="dropdown"><a className="cursor-pointer" onClick={this.onCoachesClick}><span>{this.props.translation("menu_coaches")}</span> <i className="bi bi-chevron-down" onClick={handleClickDropdown}/></a>
-                                    <ul>
+                                <li className="dropdown"><a className="cursor-pointer" ><span onClick={this.onCoachesClick}>{this.props.translation("menu_coaches")}</span> <i className="bi bi-chevron-down" onClick={() => this.setState({coachDrop:!this.state.coachDrop})}/></a>
+                                    <ul className={this.state.coachDrop ? "dropdown-active" : ""}>
                                         <li><a className="cursor-pointer" onClick={this.onCoachesOnlineVideoCoursesClick}>{this.props.translation("menu_online_video_courses")}</a></li>
                                         <li><a className="cursor-pointer" onClick={this.onCoachesDownloadsClick}>{this.props.translation("menu_downloads")}</a></li>
                                         <li><a className="cursor-pointer" onClick={this.onCoachesRegionalTrainingsClick}>{this.props.translation("menu_regional_trainings")}</a></li>
@@ -156,8 +161,8 @@ class Navbar extends Component {
                                         <li><a className="cursor-pointer" onClick={this.onCoachesSportSuppliesClick}>{this.props.translation("menu_sports_supplies")}</a></li>
                                     </ul>
                                 </li>
-                                <li className="dropdown"><a className="cursor-pointer" onClick={this.onParentClick}><span>{this.props.translation("menu_parents")}</span> <i className="bi bi-chevron-down"/></a>
-                                    <ul>
+                                <li className="dropdown"><a className="cursor-pointer" ><span onClick={this.onParentClick}>{this.props.translation("menu_parents")}</span> <i className="bi bi-chevron-down" onClick={() => this.setState({parentDrop:!this.state.parentDrop})}/></a>
+                                    <ul className={this.state.parentDrop ? "dropdown-active" : ""}>
                                         <li><a className="cursor-pointer" onClick={this.onParentNatureAppClick}>{this.props.translation("menu_nature_app")}</a></li>
                                         <li><a className="cursor-pointer" onClick={this.onParentCounselorsClick}>{this.props.translation("menu_counselors")}</a></li>
                                         <li><a className="cursor-pointer" onClick={this.onParentOnlineVideoCoursesClick}>{this.props.translation("menu_online_video_courses")}</a></li>
@@ -166,8 +171,8 @@ class Navbar extends Component {
                                         <li><a className="cursor-pointer" onClick={this.onParentNewsClick}>{this.props.translation("menu_news")}</a></li>
                                     </ul>
                                 </li>
-                                <li className="dropdown"><a className="cursor-pointer" onClick={this.onKidsSportsClubsClick}><span>{this.props.translation("menu_kids_sports_clubs")}</span> <i className="bi bi-chevron-down"/></a>
-                                    <ul>
+                                <li className="dropdown"><a className="cursor-pointer" ><span onClick={this.onKidsSportsClubsClick}>{this.props.translation("menu_kids_sports_clubs")}</span> <i className="bi bi-chevron-down" onClick={() => this.setState({clubDrop:!this.state.clubDrop})}/></a>
+                                    <ul className={this.state.clubDrop ? "dropdown-active" : ""}>
                                         <li><a className="cursor-pointer" onClick={this.onKidsSportsClubsClubMemberServiceClick}>{this.props.translation("menu_club_member_service")}</a></li>
                                         <li><a className="cursor-pointer" onClick={this.onKidsSportsClubsWebSolutionsClick}>{this.props.translation("menu_web_solutions")}</a></li>
                                         <li><a className="cursor-pointer" onClick={this.onKidsSportsClubsTeamPackagesClick}>{this.props.translation("menu_team_packages")}</a></li>
@@ -176,8 +181,8 @@ class Navbar extends Component {
                                         <li><a className="cursor-pointer" onClick={this.onKidsSportsClubsRegionalTrainingsClick}>{this.props.translation("menu_regional_trainings")}</a></li>
                                     </ul>
                                 </li>
-                                <li className="dropdown"><a className="cursor-pointer" onClick={this.onFranchiseClick}><span>{this.props.translation("menu_franchise_jobs")}</span> <i className="bi bi-chevron-down"/></a>
-                                    <ul>
+                                <li className="dropdown"><a className="cursor-pointer" ><span onClick={this.onFranchiseClick}>{this.props.translation("menu_franchise_jobs")}</span> <i className="bi bi-chevron-down" onClick={() => this.setState({fjDrop:!this.state.fjDrop})}/></a>
+                                    <ul className={this.state.fjDrop ? "dropdown-active" : ""}>
                                         <li><a className="cursor-pointer" onClick={this.onFranchiseBecomeCoachClick}>{this.props.translation("menu_become_coach")}</a></li>
                                         {/*<li><a className="cursor-pointer" onClick={this.onFranchiseRegionalBusinessLeaderClick}>{this.props.translation("menu_regional_business_leader")}</a></li>*/}
                                         <li><a className="cursor-pointer" onClick={this.onFranchiseBecomeFranchiseClick}>{this.props.translation("menu_become_franchise")}</a></li>
