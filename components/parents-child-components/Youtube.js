@@ -76,49 +76,49 @@ class Youtube extends Component {
 
                     </div>
                 </section>
-                <section id="services" className="services bg-light-blue">
-                    <div className="container" data-aos="fade-up">
+                {/*<section id="services" className="services bg-light-blue">*/}
+                {/*    <div className="container" data-aos="fade-up">*/}
 
-                        <div className="section-title">
-                            <h2>{this.props.translation("parents_y_layout_third_section_heading")}</h2>
-                            {/*<p>Check out the great services we offer</p>*/}
-                        </div>
+                {/*        <div className="section-title">*/}
+                {/*            <h2>{this.props.translation("parents_y_layout_third_section_heading")}</h2>*/}
+                {/*            /!*<p>Check out the great services we offer</p>*!/*/}
+                {/*        </div>*/}
 
-                        <div className="row justify-content-center">
-                            <div className="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="zoom-in"
-                                 data-aos-delay="100">
-                                <div className="icon-box">
-                                    {/*<div className="icon"><i className="bx bxl-dribbble"></i></div>*/}
-                                    <h4 className="title"><a href="">{this.props.translation("parents_y_layout_third_section_heading_small1")}</a></h4>
-                                    <p className="description">{this.props.translation("parents_y_layout_third_section_heading_small1_text")}</p>
+                {/*        <div className="row justify-content-center">*/}
+                {/*            <div className="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="zoom-in"*/}
+                {/*                 data-aos-delay="100">*/}
+                {/*                <div className="icon-box">*/}
+                {/*                    /!*<div className="icon"><i className="bx bxl-dribbble"></i></div>*!/*/}
+                {/*                    <h4 className="title"><a href="">{this.props.translation("parents_y_layout_third_section_heading_small1")}</a></h4>*/}
+                {/*                    <p className="description">{this.props.translation("parents_y_layout_third_section_heading_small1_text")}</p>*/}
 
-                                </div>
+                {/*                </div>*/}
 
-                            </div>
+                {/*            </div>*/}
 
-                            <div className="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="zoom-in"
-                                 data-aos-delay="200">
-                                <div className="icon-box">
-                                    {/*<div className="icon"><i className="bx bx-file"></i></div>*/}
-                                    <h4 className="title"><a href="">{this.props.translation("parents_y_layout_third_section_heading_small2")}</a></h4>
-                                    <p className="description">{this.props.translation("parents_y_layout_third_section_heading_small2_text")}</p>
+                {/*            <div className="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="zoom-in"*/}
+                {/*                 data-aos-delay="200">*/}
+                {/*                <div className="icon-box">*/}
+                {/*                    /!*<div className="icon"><i className="bx bx-file"></i></div>*!/*/}
+                {/*                    <h4 className="title"><a href="">{this.props.translation("parents_y_layout_third_section_heading_small2")}</a></h4>*/}
+                {/*                    <p className="description">{this.props.translation("parents_y_layout_third_section_heading_small2_text")}</p>*/}
 
-                                </div>
-                            </div>
+                {/*                </div>*/}
+                {/*            </div>*/}
 
-                            <div className="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="zoom-in"
-                                 data-aos-delay="300">
-                                <div className="icon-box">
-                                    {/*<div className="icon"><i className="bx bx-tachometer"></i></div>*/}
-                                    <h4 className="title"><a href="">{this.props.translation("parents_y_layout_third_section_heading_small3")}</a></h4>
-                                    <p className="description">{this.props.translation("parents_y_layout_third_section_heading_small3_text")}</p>
-                                </div>
-                            </div>
+                {/*            <div className="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="zoom-in"*/}
+                {/*                 data-aos-delay="300">*/}
+                {/*                <div className="icon-box">*/}
+                {/*                    /!*<div className="icon"><i className="bx bx-tachometer"></i></div>*!/*/}
+                {/*                    <h4 className="title"><a href="">{this.props.translation("parents_y_layout_third_section_heading_small3")}</a></h4>*/}
+                {/*                    <p className="description">{this.props.translation("parents_y_layout_third_section_heading_small3_text")}</p>*/}
+                {/*                </div>*/}
+                {/*            </div>*/}
 
-                        </div>
+                {/*        </div>*/}
 
-                    </div>
-                </section>
+                {/*    </div>*/}
+                {/*</section>*/}
                 <section id="portfolio" className="portfolio section-bg">
                     <div className="container" data-aos="fade-up">
 

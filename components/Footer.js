@@ -65,6 +65,9 @@ class Footer extends Component {
                         <div className="copyright">
                             &copy; Copyright <strong><span>KinderFit</span></strong>. All Rights Reserved
                         </div>
+                        <div className="copyright">
+                            <i className="bi bi-youtube m-5"></i>
+                        </div>
                         <div className="credits">
                             Created by <a href="https://amipeda.com/">Amipeda</a>
                         </div>
