@@ -11,8 +11,8 @@ class Downloads extends Component {
                 <section id="hero" className="d-flex">
 
                     <div className="container">
-                        <div className="row gy-4">
-                            <div className="col-lg-6 order-2 order-lg-1 d-flex flex-column pt-3">
+                        <div className="row">
+                            <div className="col-lg-6 col-md-6 order-2 order-lg-1 d-flex flex-column">
                                 <h1>{this.props.translation("coach_download_layout_first_section_heading")}
                                 </h1>
                                 {/*<h2>the kids-sport-concept for kids*/}
@@ -25,8 +25,8 @@ class Downloads extends Component {
                                 {/*    <p className="mt-3">{this.props.translation("coach_download_layout_first_section_text2")}</p>*/}
                                 {/*</div>*/}
                             </div>
-                            <div className="col-lg-6 order-1 order-lg-2 hero-img">
-                                <img src="/images/folder.png" className="img-fluid animated rounded-3" alt=""/>
+                            <div className="col-lg-6 col-md-6 order-1 order-lg-2 hero-img">
+                                <img src="/images/folder.png" className="img-fluid animated rounded-3 cus-width" alt=""/>
                             </div>
                         </div>
                     </div>
@@ -35,8 +35,8 @@ class Downloads extends Component {
                 <section id="services" className="services bg-light-blue">
                     <div className="container" data-aos="fade-up">
 
-                        <div className="section-title">
-                            <h2>{this.props.translation("coach_download_layout_second_section_heading")}</h2>
+                        <div className="section-title" align="center">
+                            <h3 className="text-white">{this.props.translation("coach_download_layout_second_section_heading")}</h3>
                             {/*<p>Check out the great services we offer</p>*/}
                         </div>
 
@@ -123,7 +123,7 @@ class Downloads extends Component {
                     <div className="container" data-aos="fade-up">
 
                         <div className="section-title">
-                            <h2>{this.props.translation("coach_download_layout_fourth_section_heading")}</h2>
+                            <h3 className="text-white">{this.props.translation("coach_download_layout_fourth_section_heading")}</h3>
                         </div>
 
                         <div className="row portfolio-container justify-content-center" data-aos="fade-up" data-aos-delay="200">
@@ -208,7 +208,7 @@ class Downloads extends Component {
                     <div className="container" data-aos="fade-up">
 
                         <div className="section-title">
-                            <h2>{this.props.translation("coach_download_layout_fifth_section_heading")}</h2>
+                            <h3 className="text-white">{this.props.translation("coach_download_layout_fifth_section_heading")}</h3>
                         </div>
 
                         <div className="row portfolio-container justify-content-center" data-aos="fade-up" data-aos-delay="200">
@@ -293,7 +293,7 @@ class Downloads extends Component {
                     <div className="container" data-aos="fade-up">
 
                         <div className="section-title">
-                            <h2>{this.props.translation("coach_download_layout_sixth_section_heading")}</h2>
+                            <h3 className="text-white">{this.props.translation("coach_download_layout_sixth_section_heading")}</h3>
                         </div>
 
                         <div className="row portfolio-container justify-content-center" data-aos="fade-up" data-aos-delay="200">

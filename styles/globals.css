@@ -452,7 +452,10 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 @media (max-width: 575px) {
   #hero .hero-img img {
-    width: 80%;
+    width: 60%;
+  }
+  .cus-width{
+    width: 40%;
   }
 }
 @media (max-height: 600px) {
@@ -1315,3 +1318,4 @@ p{
 .cus-h-auto{
   height: auto;
 }
+
