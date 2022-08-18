@@ -189,9 +189,9 @@ class Navbar extends Component {
                                     </ul>
                                 </li>
                                 <li><a className="nav-link scrollto cursor-pointer" onClick={this.onContactClick}><span>{this.props.translation("menu_contact")}</span></a></li>
-                                <li><a className="nav-link scrollto cursor-pointer" onClick={this.onENClick}>en</a></li>
-                                <li><a className="text-white">|</a></li>
-                                <li><a className="nav-link scrollto cursor-pointer" onClick={this.onDEClick}>de</a></li>
+                                <li><a className=" scrollto cursor-pointer" ><span onClick={this.onENClick}>en </span><span className="m-2"> | </span><span onClick={this.onDEClick}> de</span></a></li>
+                                {/*<li><a className="text-white"></a></li>*/}
+                                {/*<li><a className="nav-link scrollto cursor-pointer" >de</a></li>*/}
                                 {/*<li><a className="getstarted scrollto" href="#about">Get Started</a></li>*/}
                             </ul>
                             {this.state.mobileNav ? <i className="bi mobile-nav-toggle bi-x text-white" onClick={() => this.setState({mobileNav:!this.state.mobileNav})}/> : <i className="bi mobile-nav-toggle bi-list text-white" onClick={() => this.setState({mobileNav:!this.state.mobileNav})}/>}

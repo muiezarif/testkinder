@@ -5,6 +5,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import {Carousel} from "react-responsive-carousel";
 import Contact from "./Contact";
 import Router from "next/router";
+import {CookieConsent} from "react-cookie-consent";
 
 class Home extends Component {
     onHomeClick = () => {
@@ -365,6 +366,7 @@ class Home extends Component {
                             </div>
                         </div>
                     </section>
+                    <CookieConsent>{this.props.translation("cookie_text")}</CookieConsent>
                     <Contact translation ={this.props.translation}/>
                     </main>
                     <Footer translation ={this.props.translation}/>

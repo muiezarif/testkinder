@@ -56,7 +56,7 @@ class Parents extends Component {
 
                                 <div className="col-lg-6 pt-5 pt-lg-0">
                                     <h3 data-aos="fade-up">{this.props.translation("parents_layout_third_section_heading")}</h3>
-                                    <p data-aos="fade-up" data-aos-delay="100">{this.props.translation("parents_layout_second_section_text")}</p>
+                                    <p data-aos="fade-up" data-aos-delay="100">{this.props.translation("parents_layout_third_section_text")}</p>
                                 </div>
                                 <div className="col-lg-5 d-flex align-items-center justify-content-center about-img">
                                     <img src="/images/pic13.jpg" className="img-fluid rounded-3 img-custom-style" alt="" data-aos="zoom-in"/>

@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import {CookieConsent} from "react-cookie-consent";
 
 class Footer extends Component {
     render() {
@@ -66,14 +67,15 @@ class Footer extends Component {
                             &copy; Copyright <strong><span>KinderFit</span></strong>. All Rights Reserved
                         </div>
                         <div className="copyright">
-                            <i className="bi bi-youtube m-5"></i>
+                            <i className="bi bi-youtube m-5 text-red cursor-pointer"></i>
+                            <span><a className="cursor-pointer">Impressum</a></span>
+                            <span className="m-3"><a className="cursor-pointer">Datenzchutz</a></span>
                         </div>
                         <div className="credits">
                             Created by <a href="https://amipeda.com/">Amipeda</a>
                         </div>
                     </div>
                 </footer>
-
             </div>
         );
     }

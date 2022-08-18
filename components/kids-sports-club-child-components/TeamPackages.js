@@ -8,7 +8,7 @@ class TeamPackages extends Component {
         return (
             <div>
                 <Navbar translation ={this.props.translation}/>
-                <section id="hero" className="d-flex" style={{ backgroundImage: "url(/images/pic102.jpg)" }}>
+                <section id="hero" className="d-flex" style={{ backgroundImage: "url(/images/pic62.jpg)" }}>
 
                     <div className="container">
                         <div className="row gy-4">
