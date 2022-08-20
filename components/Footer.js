@@ -68,7 +68,7 @@ class Footer extends Component {
                         </div>
                         <div className="copyright">
                             <i className="bi bi-youtube m-5 text-red cursor-pointer"></i>
-                            <span><a className="cursor-pointer">Impressum</a></span>
+                            <span><a href="https://privacypolicycomforthajj.blogspot.com/2022/08/impressum-angaben-gema-5-tmg-madlen.html" target="_blank" className="cursor-pointer">Impressum</a></span>
                             <span className="m-3"><a className="cursor-pointer">Datenzchutz</a></span>
                         </div>
                         <div className="credits">

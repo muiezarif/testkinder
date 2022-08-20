@@ -36,7 +36,7 @@ class LiveOnlineMeetings extends Component {
                     <div className="container" data-aos="fade-up">
 
                         <div className="section-title">
-                            <h2>{this.props.translation("coach_lov_layout_second_section_heading")}</h2>
+                            <h3 className="text-white">{this.props.translation("coach_lov_layout_second_section_heading")}</h3>
                             {/*<p>Check out the great services we offer</p>*/}
                         </div>
 
