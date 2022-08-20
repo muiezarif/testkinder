@@ -254,13 +254,13 @@ class Home extends Component {
                                 </div>
                                 <div className="col-lg-6 pt-5 pt-lg-0">
                                     <h3 data-aos="fade-up">{this.props.translation("home_layout_fourth_section_heading")}</h3>
-                                    <p data-aos="fade-up" data-aos-delay="100">{this.props.translation("home_layout_third_section_point1")}</p>
-                                    <p data-aos="fade-up" data-aos-delay="100">{this.props.translation("home_layout_third_section_point2")}</p>
-                                    <p data-aos="fade-up" data-aos-delay="100">{this.props.translation("home_layout_third_section_point3")}</p>
-                                    <p data-aos="fade-up" data-aos-delay="100">{this.props.translation("home_layout_third_section_point4")}</p>
-                                    <p data-aos="fade-up" data-aos-delay="100">{this.props.translation("home_layout_third_section_point5")}</p>
-                                    <p data-aos="fade-up" data-aos-delay="100">{this.props.translation("home_layout_third_section_point6")}</p>
-                                    <p data-aos="fade-up" data-aos-delay="100">{this.props.translation("home_layout_third_section_point7")}</p>
+                                    <p data-aos="fade-up" data-aos-delay="100">{this.props.translation("home_layout_fourth_section_point1")}</p>
+                                    <p data-aos="fade-up" data-aos-delay="100">{this.props.translation("home_layout_fourth_section_point2")}</p>
+                                    <p data-aos="fade-up" data-aos-delay="100">{this.props.translation("home_layout_fourth_section_point3")}</p>
+                                    <p data-aos="fade-up" data-aos-delay="100">{this.props.translation("home_layout_fourth_section_point4")}</p>
+                                    <p data-aos="fade-up" data-aos-delay="100">{this.props.translation("home_layout_fourth_section_point5")}</p>
+                                    <p data-aos="fade-up" data-aos-delay="100">{this.props.translation("home_layout_fourth_section_point6")}</p>
+                                    {/*<p data-aos="fade-up" data-aos-delay="100">{this.props.translation("home_layout_fourth_section_point7")}</p>*/}
                                     <p data-aos="fade-up" data-aos-delay="100"><a className="btn-get-started scrollto cursor-pointer" onClick={this.onParentClick} >{this.props.translation("more_text")}</a></p>
 
                                 </div>
@@ -273,12 +273,13 @@ class Home extends Component {
                             <div className="row justify-content-between align-items-center">
                                 <div className="col-lg-6 pt-5 pt-lg-0">
                                     <h3 data-aos="fade-up">{this.props.translation("home_layout_fifth_section_heading")}</h3>
-                                    <p data-aos="fade-up" data-aos-delay="100">{this.props.translation("home_layout_fourth_section_point1")}</p>
-                                    <p data-aos="fade-up" data-aos-delay="100">{this.props.translation("home_layout_fourth_section_point2")}</p>
-                                    <p data-aos="fade-up" data-aos-delay="100">{this.props.translation("home_layout_fourth_section_point3")}</p>
-                                    <p data-aos="fade-up" data-aos-delay="100">{this.props.translation("home_layout_fourth_section_point4")}</p>
-                                    <p data-aos="fade-up" data-aos-delay="100">{this.props.translation("home_layout_fourth_section_point5")}</p>
-                                    <p data-aos="fade-up" data-aos-delay="100">{this.props.translation("home_layout_fourth_section_point6")}</p>
+                                    <p data-aos="fade-up" data-aos-delay="100">{this.props.translation("home_layout_fifth_section_point1")}</p>
+                                    <p data-aos="fade-up" data-aos-delay="100">{this.props.translation("home_layout_fifth_section_point2")}</p>
+                                    <p data-aos="fade-up" data-aos-delay="100">{this.props.translation("home_layout_fifth_section_point3")}</p>
+                                    <p data-aos="fade-up" data-aos-delay="100">{this.props.translation("home_layout_fifth_section_point4")}</p>
+                                    <p data-aos="fade-up" data-aos-delay="100">{this.props.translation("home_layout_fifth_section_point5")}</p>
+                                    <p data-aos="fade-up" data-aos-delay="100">{this.props.translation("home_layout_fifth_section_point6")}</p>
+                                    <p data-aos="fade-up" data-aos-delay="100">{this.props.translation("home_layout_fifth_section_point7")}</p>
                                     <p data-aos="fade-up" data-aos-delay="100"><a className="btn-get-started scrollto cursor-pointer" onClick={this.onKidsSportsClubsClick}>{this.props.translation("more_text")}</a></p>
 
                                 </div>
