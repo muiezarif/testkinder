@@ -229,7 +229,7 @@ class SportsCourses extends Component {
                                 {/*<div className=></div>*/}
                                 <div className="row justify-content-between align-items-center">
                                     <div className="col-lg-6 pt-5 pt-lg-0">
-                                        <h3 data-aos="fade-up">{this.props.translation("sfk_sc_layout_sixth_section_small_heading1")}</h3>
+                                        <h3 data-aos="fade-up">{this.props.translation("sfk_sc_layout_sixth_section_small_heading2")}</h3>
                                         <p data-aos="fade-up" data-aos-delay="100">{this.props.translation("sfk_sc_layout_sixth_section_small_heading1_text")}</p>
 
 
