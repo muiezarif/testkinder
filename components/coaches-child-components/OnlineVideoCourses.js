@@ -123,7 +123,7 @@ class OnlineVideoCourses extends Component {
                     <div className="container" data-aos="fade-up">
 
                         <div className="section-title">
-                            <h2>{this.props.translation("coach_ovc_layout_fourth_section_heading")}</h2>
+                            <h3 className="text-white">{this.props.translation("coach_ovc_layout_fourth_section_heading")}</h3>
                         </div>
 
                         <div className="row portfolio-container justify-content-center" data-aos="fade-up" data-aos-delay="200">
@@ -208,7 +208,7 @@ class OnlineVideoCourses extends Component {
                     <div className="container" data-aos="fade-up">
 
                         <div className="section-title">
-                            <h2>{this.props.translation("coach_ovc_layout_fifth_section_heading")}</h2>
+                            <h3 className="text-white">{this.props.translation("coach_ovc_layout_fifth_section_heading")}</h3>
                         </div>
 
                         <div className="row portfolio-container justify-content-center" data-aos="fade-up" data-aos-delay="200">
@@ -293,7 +293,7 @@ class OnlineVideoCourses extends Component {
                     <div className="container" data-aos="fade-up">
 
                         <div className="section-title">
-                            <h2>{this.props.translation("coach_ovc_layout_sixth_section_heading")}</h2>
+                            <h3 className="text-white">{this.props.translation("coach_ovc_layout_sixth_section_heading")}</h3>
                         </div>
 
                         <div className="row portfolio-container justify-content-center" data-aos="fade-up" data-aos-delay="200">
