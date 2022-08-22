@@ -291,7 +291,7 @@ class Home extends Component {
                     </section>
                     <section id="about" className="about section-bg">
                         <div className="section-title">
-                            <h2>{this.props.translation("home_layout_sixth_section_heading")}</h2>
+                            <h3 className="text-white">{this.props.translation("home_layout_sixth_section_heading")}</h3>
                             {/*<p>Check out the great services we offer</p>*/}
                         </div>
                         <div className="row">
