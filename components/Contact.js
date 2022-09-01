@@ -16,9 +16,9 @@ class Contact extends Component {
             console.log("in")
             const data = {name:this.state.name,email:this.state.email,date:this.state.date,time:this.state.time,subject:this.state.subject,message:this.state.message}
             this.props.addContactUsForm(data).then((response) => {
-                console.log(response)
+                console.log("success res:"+response)
             }).catch((err) =>{
-                console.log(err)
+                console.log("error res:"+err)
             })
         }
         return (
@@ -99,6 +99,7 @@ class Contact extends Component {
                                         {/*<input type="text" className="form-control" name="subject" onChange={handleChange} id="subject"*/}
                                         {/*       placeholder={this.props.translation("contact_subject")} required/>*/}
                                         <select name="subject" id="subject" className="form-control" onChange={handleChange}>
+                                            <option value="Support">Select / Auswählen</option>
                                             <option value="Trial-Request/Schnupperanfrage">Trial-Request / Schnupperanfrage</option>
                                             <option value="Training-request/Schulungsanfrage">Training-request / Schulungsanfrage</option>
                                             <option value="Club-request/Vereinsanfrage">Club-request / Vereinsanfrage</option>
