@@ -55,7 +55,7 @@ class Contact extends Component {
                                     <div className="phone">
                                         <i className="bi bi-phone"></i>
                                         <h4>{this.props.translation("contact_call")}:</h4>
-                                        <p>0174/6737048</p>
+                                        <p>0151/51029628</p>
                                     </div>
 
                                     <iframe
