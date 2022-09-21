@@ -130,7 +130,7 @@ class InfoBlogs extends Component {
 
                             <div className="col-lg-3 col-md-3 portfolio-item filter-app">
                                 <div className="portfolio-wrap">
-                                    <img src="/img/portfolio/portfolio-1.jpg" className="img-fluid"
+                                    <img src="/images/animated-demo-pic1.png" className="img-fluid"
                                          alt=""/>
                                     <div className="portfolio-links">
                                         {/*<a href="/img/portfolio/portfolio-1.jpg"*/}
@@ -148,7 +148,7 @@ class InfoBlogs extends Component {
 
                             <div className="col-lg-3 col-md-3 portfolio-item filter-web">
                                 <div className="portfolio-wrap">
-                                    <img src="/img/portfolio/portfolio-2.jpg" className="img-fluid"
+                                    <img src="/images/animated-demo-pic1.png" className="img-fluid"
                                          alt=""/>
                                     <div className="portfolio-links">
                                         <a href="/img/portfolio/portfolio-2.jpg"
@@ -166,7 +166,7 @@ class InfoBlogs extends Component {
 
                             <div className="col-lg-3 col-md-3 portfolio-item filter-app">
                                 <div className="portfolio-wrap">
-                                    <img src="/img/portfolio/portfolio-3.jpg" className="img-fluid"
+                                    <img src="/images/animated-demo-pic1.png" className="img-fluid"
                                          alt=""/>
                                     <div className="portfolio-links">
                                         <a href="/img/portfolio/portfolio-3.jpg"
@@ -184,7 +184,7 @@ class InfoBlogs extends Component {
 
                             <div className="col-lg-3 col-md-3 portfolio-item filter-card">
                                 <div className="portfolio-wrap">
-                                    <img src="/img/portfolio/portfolio-4.jpg" className="img-fluid"
+                                    <img src="/images/animated-demo-pic1.png" className="img-fluid"
                                          alt=""/>
                                     <div className="portfolio-links">
                                         <a
@@ -215,7 +215,7 @@ class InfoBlogs extends Component {
 
                             <div className="col-lg-3 col-md-3 portfolio-item filter-app">
                                 <div className="portfolio-wrap">
-                                    <img src="/img/portfolio/portfolio-1.jpg" className="img-fluid"
+                                    <img src="/images/animated-demo-pic2.png" className="img-fluid"
                                          alt=""/>
                                     <div className="portfolio-links">
                                         {/*<a href="/img/portfolio/portfolio-1.jpg"*/}
@@ -233,7 +233,7 @@ class InfoBlogs extends Component {
 
                             <div className="col-lg-3 col-md-3 portfolio-item filter-web">
                                 <div className="portfolio-wrap">
-                                    <img src="/img/portfolio/portfolio-2.jpg" className="img-fluid"
+                                    <img src="/images/animated-demo-pic2.png" className="img-fluid"
                                          alt=""/>
                                     <div className="portfolio-links">
                                         <a href="/img/portfolio/portfolio-2.jpg"
@@ -251,7 +251,7 @@ class InfoBlogs extends Component {
 
                             <div className="col-lg-3 col-md-3 portfolio-item filter-app">
                                 <div className="portfolio-wrap">
-                                    <img src="/img/portfolio/portfolio-3.jpg" className="img-fluid"
+                                    <img src="/images/animated-demo-pic2.png" className="img-fluid"
                                          alt=""/>
                                     <div className="portfolio-links">
                                         <a href="/img/portfolio/portfolio-3.jpg"
@@ -269,7 +269,7 @@ class InfoBlogs extends Component {
 
                             <div className="col-lg-3 col-md-3 portfolio-item filter-card">
                                 <div className="portfolio-wrap">
-                                    <img src="/img/portfolio/portfolio-4.jpg" className="img-fluid"
+                                    <img src="/images/animated-demo-pic2.png" className="img-fluid"
                                          alt=""/>
                                     <div className="portfolio-links">
                                         <a
@@ -300,7 +300,7 @@ class InfoBlogs extends Component {
 
                             <div className="col-lg-3 col-md-3 portfolio-item filter-app">
                                 <div className="portfolio-wrap">
-                                    <img src="/img/portfolio/portfolio-1.jpg" className="img-fluid"
+                                    <img src="/images/animated-demo-pic1.png" className="img-fluid"
                                          alt=""/>
                                     <div className="portfolio-links">
                                         {/*<a href="/img/portfolio/portfolio-1.jpg"*/}
@@ -318,7 +318,7 @@ class InfoBlogs extends Component {
 
                             <div className="col-lg-3 col-md-3 portfolio-item filter-web">
                                 <div className="portfolio-wrap">
-                                    <img src="/img/portfolio/portfolio-2.jpg" className="img-fluid"
+                                    <img src="/images/animated-demo-pic1.png" className="img-fluid"
                                          alt=""/>
                                     <div className="portfolio-links">
                                         <a href="/img/portfolio/portfolio-2.jpg"
@@ -336,7 +336,7 @@ class InfoBlogs extends Component {
 
                             <div className="col-lg-3 col-md-3 portfolio-item filter-app">
                                 <div className="portfolio-wrap">
-                                    <img src="/img/portfolio/portfolio-3.jpg" className="img-fluid"
+                                    <img src="/images/animated-demo-pic1.png" className="img-fluid"
                                          alt=""/>
                                     <div className="portfolio-links">
                                         <a href="/img/portfolio/portfolio-3.jpg"
@@ -354,7 +354,7 @@ class InfoBlogs extends Component {
 
                             <div className="col-lg-3 col-md-3 portfolio-item filter-card">
                                 <div className="portfolio-wrap">
-                                    <img src="/img/portfolio/portfolio-4.jpg" className="img-fluid"
+                                    <img src="/images/animated-demo-pic1.png" className="img-fluid"
                                          alt=""/>
                                     <div className="portfolio-links">
                                         <a

@@ -141,7 +141,7 @@ class TeamPackages extends Component {
 
                                     </div>
                                     <div className="col-lg-5 d-flex align-items-center justify-content-center about-img">
-                                        <img src="/images/sports.png" className="img-fluid rounded-3" alt="" data-aos="zoom-in"/>
+                                        <img src="/images/animated-demo-pic1.png" className="img-fluid rounded-3" alt="" data-aos="zoom-in"/>
                                     </div>
                                     {/*<div>*/}
                                     {/*    <a className="btn-get-started scrollto cursor-pointer">Details</a>*/}
@@ -157,7 +157,7 @@ class TeamPackages extends Component {
 
                                     </div>
                                     <div className="col-lg-5 d-flex align-items-center justify-content-center about-img">
-                                        <img src="/images/education.png" className="img-fluid rounded-3" alt="" data-aos="zoom-in"/>
+                                        <img src="/images/animated-demo-pic2.png" className="img-fluid rounded-3" alt="" data-aos="zoom-in"/>
                                     </div>
                                     {/*<div>*/}
                                     {/*    <a className="btn-get-started scrollto cursor-pointer">Details</a>*/}
