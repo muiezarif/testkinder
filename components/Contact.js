@@ -40,8 +40,8 @@ class Contact extends Component {
                                     <div className="address">
                                         <i className="bi bi-geo-alt"></i>
                                         <h4>{this.props.translation("contact_location")}:</h4>
-                                        <p>Lochhausenerstr. 17
-                                            81247 München
+                                        <p>Ellmosenerstr. 18
+                                            83043 Bad Aibling
                                             Germany
                                         </p>
                                     </div>

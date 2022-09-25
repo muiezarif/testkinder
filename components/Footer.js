@@ -69,7 +69,7 @@ class Footer extends Component {
                         <div className="copyright">
                             <i className="bi bi-youtube m-5 text-red cursor-pointer"></i>
                             <span><a href="https://privacypolicycomforthajj.blogspot.com/2022/08/impressum-angaben-gema-5-tmg-madlen.html" target="_blank" className="cursor-pointer">Impressum</a></span>
-                            <span className="m-3"><a className="cursor-pointer">Datenschutz</a></span>
+                            <span className="m-3"><a href="https://privacypolicycomforthajj.blogspot.com/2022/09/data-safety.html" target="_blank" className="cursor-pointer">Datenschutz</a></span>
                         </div>
                         <div className="credits">
                             Created by <a href="https://amipeda.com/">Amipeda</a>
