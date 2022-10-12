@@ -136,7 +136,7 @@ class ShopForKids extends Component {
                                         {/*<a href="/img/portfolio/portfolio-1.jpg"*/}
                                         {/*   data-gallery="portfolioGallery" className="portfolio-lightbox"*/}
                                         {/*   title="App 1"><i className="bi bi-plus"></i></a>*/}
-                                        <a href="portfolio-details.html" title="More Details"><i
+                                        <a href="https://www.awin1.com/cread.php?awinmid=11417&awinaffid=1149181&clickref=B%C3%A4lle-Mix&ued=https%3A%2F%2Fwww.sport-thieme.de%2FKitas%2FSpielen_Toben_Lernen%2Fart%3D2766906" target="_blank" title="More Details"><i
                                             className="bi bi-link"></i></a>
                                     </div>
                                     <div className="portfolio-info">
@@ -221,7 +221,7 @@ class ShopForKids extends Component {
                                         {/*<a href="/img/portfolio/portfolio-1.jpg"*/}
                                         {/*   data-gallery="portfolioGallery" className="portfolio-lightbox"*/}
                                         {/*   title="App 1"><i className="bi bi-plus"></i></a>*/}
-                                        <a href="portfolio-details.html" title="More Details"><i
+                                        <a href="https://www.awin1.com/cread.php?awinmid=11417&awinaffid=1149181&clickref=B%C3%A4lle-Mix&ued=https%3A%2F%2Fwww.sport-thieme.de%2FKitas%2FSpielen_Toben_Lernen%2Fart%3D2766906" target="_blank" title="More Details"><i
                                             className="bi bi-link"></i></a>
                                     </div>
                                     <div className="portfolio-info">
@@ -236,10 +236,10 @@ class ShopForKids extends Component {
                                     <img src="/images/animated-demo-pic2.png" className="img-fluid"
                                          alt=""/>
                                     <div className="portfolio-links">
-                                        <a href="/img/portfolio/portfolio-2.jpg"
-                                           data-gallery="portfolioGallery" className="portfolio-lightbox"
-                                           title="Web 3"><i className="bi bi-plus"></i></a>
-                                        <a href="portfolio-details.html" title="More Details"><i
+                                        {/*<a href="/img/portfolio/portfolio-2.jpg"*/}
+                                        {/*   data-gallery="portfolioGallery" className="portfolio-lightbox"*/}
+                                        {/*   title="Web 3"><i className="bi bi-plus"></i></a>*/}
+                                        <a href="https://www.awin1.com/cread.php?awinmid=11417&awinaffid=1149181&clickref=B%C3%A4lle-Mix&ued=https%3A%2F%2Fwww.sport-thieme.de%2FKitas%2FSpielen_Toben_Lernen%2Fart%3D2766906" target="_blank" title="More Details"><i
                                             className="bi bi-link"></i></a>
                                     </div>
                                     <div className="portfolio-info">
